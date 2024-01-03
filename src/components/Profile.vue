@@ -14,7 +14,7 @@
                 <p>
                     <ul>
                         <li>
-                            <i></i>
+                            <i class="fas fa-pen"></i>
                             <span>Name: </span>
                             Rachad Alabi ADEKAMBI
                         </li>

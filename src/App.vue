@@ -1,9 +1,39 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <nav class="header">
+      <div class="header__logo" >
+        <router-link to="/">
+          <span>
+            CODEUR
+          </span> <br>
+
+          <strong>
+            CREATIF
+          </strong>
+        </router-link> |
+      </div>
+
+      <div class="header__list">
+          <div class="header__list__item">
+              <router-link to="/about" >
+                About
+              </router-link>
+          </div>
+
+          <div class="header__list__item">
+              <router-link to="/skills" >
+                Skills
+              </router-link>
+          </div>
+
+          <div class="header__list__item">
+              <router-link to="/experience" >
+                Experience
+              </router-link>
+          </div>
+      </div>
   </nav>
   <router-view/>
+
 </template>
 
 <style>

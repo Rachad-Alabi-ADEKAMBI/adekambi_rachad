@@ -1,17 +1,27 @@
 <template>
   <div class="main">
-      <Profile/>
+      <div class="main__card">
+        <Profile/>
+      </div>
+
+      <div class="main__content">
+          <div class="content">
+              <About/>
+          </div>
+      </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Profile from '@/components/Profile.vue'
+import About from '@/components/About.vue'
 
 export default {
 name: 'HomeView',
 components: {
-  Profile
+  Profile,
+  About
 }
 }
 </script>
