@@ -15,31 +15,33 @@
       <div class="header__list">
           <div class="header__list__item">
               <router-link to="/about" >
-                About
+                <p>About</p>
               </router-link>
           </div>
 
           <div class="header__list__item">
               <router-link to="/skills" >
-                Skills
+                <p>Skills</p>
               </router-link>
           </div>
 
           <div class="header__list__item">
               <router-link to="/experience" >
-                Experience
+                <p>Experience</p>
               </router-link>
           </div>
 
           <div class="header__list__item">
               <router-link to="/education" >
-                Education
+                <p>Education</p>
               </router-link>
           </div>
 
           <div class="header__list__item">
               <router-link to="/portfolio" >
-                Portfolio
+                <p>
+                  Portfolio
+                </p>
               </router-link>
           </div>
       </div>
