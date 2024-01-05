@@ -30,6 +30,18 @@
                 Experience
               </router-link>
           </div>
+
+          <div class="header__list__item">
+              <router-link to="/education" >
+                Education
+              </router-link>
+          </div>
+
+          <div class="header__list__item">
+              <router-link to="/portfolio" >
+                Portfolio
+              </router-link>
+          </div>
       </div>
   </nav>
   <router-view/>
