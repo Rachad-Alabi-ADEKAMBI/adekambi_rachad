@@ -18,7 +18,7 @@
                 </p>
 
                 <p>
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="far fa-location-dot"></i>
                             <span>Location: </span>
                             Benin republic
                 </p>

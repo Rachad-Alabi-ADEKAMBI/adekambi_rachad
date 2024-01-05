@@ -1,7 +1,7 @@
 <template>
   <nav class="header">
       <div class="header__logo" >
-        <router-link to="/">
+       <p> <router-link to="/">
           <span>
             CODEUR
           </span> <br>
@@ -10,6 +10,7 @@
             CREATIF
           </strong>
         </router-link> |
+      </p>
       </div>
 
       <div class="header__list">

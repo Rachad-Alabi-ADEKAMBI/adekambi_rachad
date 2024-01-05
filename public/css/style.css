@@ -3,6 +3,9 @@ html, body {
   padding: 0;
   margin: 0;
   display: block;
+  line-height: 1.5em;
+  font-family: "Montserrat";
+  font-size: 20px;
 }
 
 h2 {
@@ -14,9 +17,9 @@ li {
 }
 
 .header {
-  width: 80%;
+  width: 60%;
   margin: 15px auto;
-  height: 30px;
+  height: 40px;
   background-color: #100F3A;
   display: flex;
   flex-direction: row;
@@ -45,21 +48,25 @@ li {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  display: none;
 }
 .header__list__item {
   flex: 1;
   cursor: pointer;
-  margin: 5px;
-  width: 90px;
-  display: table;
+  width: 40px;
   cursor: pointer;
   font-size: 1.3em;
+  padding: 3em;
+  border: 1px solid white;
 }
 .header__list__item p {
   color: white;
   display: table-cell;
-  font-size: 1em;
+  font-size: 0.8em;
   vertical-align: middle;
+}
+.header__list__item:hover {
+  background-color: #8583E1;
 }
 
 .app {
@@ -68,13 +75,20 @@ li {
 }
 
 .main {
-  background-color: grey;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 .main__card {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 340px;
   background-color: #100F3A;
   height: 100%;
   color: white;
@@ -82,13 +96,41 @@ li {
 .main__card .card {
   height: 100%;
 }
+.main__content {
+  width: 70%;
+  background-color: #6c757d;
+}
 .main__content .content {
   width: 100%;
   height: 100%;
 }
+.main__content .content .infos {
+  height: 100%;
+  padding-left: 60px;
+  padding-top: 80px;
+  text-align: left;
+}
+.main__content .content .infos span {
+  margin: 60px auto;
+}
+.main__content .content .infos h1 {
+  color: #100F3A;
+  margin: 40px auto;
+  font-size: 2.5em;
+}
+.main__content .content .infos strong {
+  margin: 20px auto;
+  font-size: 1.2em;
+}
+.main__content .content .infos p {
+  width: 80%;
+  margin: 30px auto auto 0;
+  text-align: justify;
+}
 
 .profile {
-  width: 350px;
+  width: 340px;
+  margin: auto;
 }
 .profile__pic img {
   width: 100%;
@@ -98,11 +140,15 @@ li {
   text-align: center;
 }
 .profile__details__list {
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
+.profile__details__list p {
+  width: 100%;
+  text-align: left;
+}
 .profile__details__list p i {
-  margin-right: 30px;
+  margin: auto 30px auto 0;
   color: #8583E1;
 }/*# sourceMappingURL=style.css.map */
