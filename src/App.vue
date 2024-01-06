@@ -1,7 +1,7 @@
 <template>
   <nav class="header">
       <div class="header__logo" >
-       <p> <router-link to="/">
+       <p> <router-link to="/about">
           <span>
             CODEUR
           </span> <br>

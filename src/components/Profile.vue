@@ -18,7 +18,7 @@
                 </p>
 
                 <p>
-                    <i class="far fa-location-dot"></i>
+                    <i class="fa-solid fa-location-dot"></i>
                             <span>Location: </span>
                             Benin republic
                 </p>
@@ -34,12 +34,6 @@
                     <i class="far fa-envelope"></i>
                         <span></span>
                         adekambirachad@gmail.com
-                </p>
-
-                <p>
-                    <i class="far fa-star"></i>
-                            <span>Date of birth: </span>
-                            December 2nd
                 </p>
 
                 <p>

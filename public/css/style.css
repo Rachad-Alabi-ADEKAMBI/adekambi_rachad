@@ -18,24 +18,27 @@ li {
 
 .header {
   width: 60%;
-  margin: 15px auto;
-  height: 40px;
+  margin: 15px auto 10px auto;
+  height: 30px;
   background-color: #100F3A;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: start;
 }
 .header__logo {
   display: table;
   font-size: 1.2em;
   cursor: pointer;
+  width: 20%;
 }
 .header__logo p {
   display: table-cell;
   vertical-align: middle;
   margin: -30px auto;
+  text-decoration: none;
 }
 .header__logo p span {
   color: white;
@@ -48,15 +51,19 @@ li {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  display: none;
+  justify-content: flex-end;
+  width: 80%;
+  text-align: center;
 }
 .header__list__item {
   flex: 1;
   cursor: pointer;
   width: 40px;
+  display: table;
+  height: 30px;
   cursor: pointer;
   font-size: 1.3em;
-  padding: 3em;
+  text-align: center;
   border: 1px solid white;
 }
 .header__list__item p {
