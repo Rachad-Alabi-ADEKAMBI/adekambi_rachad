@@ -1,5 +1,11 @@
 <template>
    <div class="infos about">
+
+        <div class="message">
+          Available for freelance work <div class="message__btn">
+            <i class="fas fa-download"></i>
+          </div>
+        </div>
         <span>
           Full-stack Developer
         </span>

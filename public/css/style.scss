@@ -139,6 +139,14 @@ li{
                 padding-left: 60px;
                 padding-top: 80px;
                 text-align: left;
+                display: block;
+
+                .message{
+                    margin: auto 5px auto auto;
+                    width: auto;
+
+                    &__
+                }
 
                 span{
                     margin: 60px auto;
@@ -195,3 +203,4 @@ li{
         }
     }
 }
+
