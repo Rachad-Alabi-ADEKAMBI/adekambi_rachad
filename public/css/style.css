@@ -5,11 +5,11 @@ html, body {
   display: block;
   line-height: 1.5em;
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 1em;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 li {
@@ -18,7 +18,7 @@ li {
 
 .header {
   width: 60%;
-  margin: 15px auto 10px auto;
+  margin: 30px auto 0px auto;
   height: 30px;
   background-color: #100F3A;
   display: flex;
@@ -33,6 +33,7 @@ li {
   font-size: 1.2em;
   cursor: pointer;
   width: 20%;
+  margin: auto;
 }
 .header__logo p {
   display: table-cell;
@@ -51,9 +52,12 @@ li {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: #100F3A;
   justify-content: flex-end;
   width: 80%;
   text-align: center;
+  margin: auto;
+  height: 30px;
 }
 .header__list__item {
   flex: 1;
@@ -105,7 +109,7 @@ li {
 }
 .main__content {
   width: 70%;
-  background-color: #6c757d;
+  background-color: #f1f3f5;
 }
 .main__content .content {
   width: 100%;
@@ -116,18 +120,57 @@ li {
   padding-left: 60px;
   padding-top: 80px;
   text-align: left;
+  display: block;
+}
+.main__content .content .infos .message {
+  margin: auto 60px auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #8583E1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 45px;
+  color: white;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.main__content .content .infos .message__text {
+  display: table;
+}
+.main__content .content .infos .message__text p {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main__content .content .infos .message__btn {
+  background-color: #100F3A;
+  width: 45px;
+  text-align: center;
+  margin: auto 0 auto 10px;
+  height: 100%;
+  display: table;
+}
+.main__content .content .infos .message__btn i {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
 }
 .main__content .content .infos span {
   margin: 60px auto;
+  color: #100F3A;
 }
 .main__content .content .infos h1 {
   color: #100F3A;
   margin: 40px auto;
-  font-size: 2.5em;
+  font-size: 3em;
+  font-weight: bold;
 }
 .main__content .content .infos strong {
   margin: 20px auto;
   font-size: 1.2em;
+  color: #100F3A;
 }
 .main__content .content .infos p {
   width: 80%;
@@ -141,14 +184,17 @@ li {
 }
 .profile__pic img {
   width: 100%;
-  height: 400px;
+  height: 350px;
 }
 .profile__details {
   text-align: center;
 }
+.profile__details h2 {
+  text-decoration: underline;
+}
 .profile__details__list {
   width: 90%;
-  margin: auto;
+  margin: 15px auto;
   text-align: center;
 }
 .profile__details__list p {
@@ -156,6 +202,19 @@ li {
   text-align: left;
 }
 .profile__details__list p i {
+  margin-right: 30px;
   margin: auto 30px auto 0;
+  color: #8583E1;
+}
+.profile__details__list .icons {
+  width: 80%;
+  margin: 20px auto;
+}
+.profile__details__list .icons a {
+  margin: 5px;
+}
+.profile__details__list .icons a i {
+  font-size: 1.2em;
+  color: #100F3A;
   color: #8583E1;
 }/*# sourceMappingURL=style.css.map */

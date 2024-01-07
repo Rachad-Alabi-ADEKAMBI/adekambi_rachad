@@ -18,7 +18,7 @@
                 </p>
 
                 <p>
-                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fas fa-map-pin"></i>
                             <span>Location: </span>
                             Benin republic
                 </p>
@@ -42,11 +42,13 @@
                         +229 96228860
                 </p>
 
-                <p>
-                    <i class="fas fa-whatsapp"></i>
-                        <span></span>
-                        +233 276000838
-                </p>
+
+                  <p class="icons">
+                    <a href=""><i class="fab fa-discord"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                    <a href=""><i class="fab fa-stack-overflow"></i></a>
+                  </p>
             </div>
         </div>
     </div>

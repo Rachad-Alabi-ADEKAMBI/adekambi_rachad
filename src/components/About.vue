@@ -2,7 +2,12 @@
    <div class="infos about">
 
         <div class="message">
-          Available for freelance work <div class="message__btn">
+          <div class="message__text">
+            <p>
+              Available for freelance work
+            </p>
+          </div>
+           <div class="message__btn">
             <i class="fas fa-download"></i>
           </div>
         </div>
