@@ -8,7 +8,9 @@
             </p>
           </div>
            <div class="message__btn">
-            <i class="fas fa-download"></i>
+              <a href='mailto:adekambirachad@gmail.com'>
+                <i class="fas fa-download"></i>
+              </a>
           </div>
         </div>
         <span>

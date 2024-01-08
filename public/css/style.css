@@ -157,6 +157,9 @@ li {
   display: table-cell;
   vertical-align: middle;
 }
+.main__content .content .infos .message:hover {
+  background-color: #100F3A;
+}
 .main__content .content .infos span {
   margin: 60px auto;
   color: #100F3A;

@@ -177,6 +177,10 @@ li{
                     }
                 }
 
+                .message:hover{
+                    background-color: $primary;
+                }
+
                 span{
                     margin: 60px auto;
                     color: $primary;
