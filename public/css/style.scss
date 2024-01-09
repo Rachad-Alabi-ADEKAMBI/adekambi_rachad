@@ -206,6 +206,66 @@ li{
                 }
             }
 
+            .experience{
+                @include flex();
+                flex-direction: row;
+                margin-bottom: 30px;
+
+                &__date{
+                    width: 25%;
+                    color: $secondary;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                }
+
+                &__details{
+                    display: block;
+                    width: 75%;
+
+                    span{
+                        color: $primary;
+                        font-weight: bold;
+                        font-size: 1.5em;
+                    }
+
+                    strong{
+                        color: $grey-dark;
+                    }
+
+                    p{
+                        margin: 10px auto auto 0;
+                    }
+                }
+            }
+
+            .education{
+                @include flex();
+                justify-content: baseline;
+                justify-content: start;
+
+                &__date{
+                  //  width: 25%;
+                    color: $secondary;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                }
+
+                &__details{
+                    @include flex();
+                    text-align: center;
+                    margin: auto 20px;
+
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
+
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+
 
         }
     }

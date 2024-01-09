@@ -180,6 +180,63 @@ li {
   margin: 30px auto auto 0;
   text-align: justify;
 }
+.main__content .content .experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.main__content .content .experience__date {
+  width: 25%;
+  color: #8583E1;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.main__content .content .experience__details {
+  display: block;
+  width: 75%;
+}
+.main__content .content .experience__details span {
+  color: #100F3A;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.main__content .content .experience__details strong {
+  color: #a5a5a5;
+}
+.main__content .content .experience__details p {
+  margin: 10px auto auto 0;
+}
+.main__content .content .education {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  justify-content: start;
+}
+.main__content .content .education__date {
+  color: #8583E1;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.main__content .content .education__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto 20px;
+}
+.main__content .content .education__details img {
+  width: 60px;
+  height: 60px;
+}
+.main__content .content .education__details p {
+  text-align: center;
+}
 
 .profile {
   width: 340px;
