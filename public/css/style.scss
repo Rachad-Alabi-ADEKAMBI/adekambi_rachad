@@ -35,25 +35,29 @@ li{
 
 .header{
     width: 60%;
-    margin: 30px auto 0px auto;
-    height: 30px;
+    margin: 20px auto;
+ //   height: 30px;
+ height: 60px;
     background-color:  $primary;
     @include flex();
     text-align: center;
     justify-content: start;
+   // display: none;
 
     &__logo{
         display: table;
         font-size: 1.2em;
         cursor: pointer;
      //   background-color: black;
+     background-color: purple;
+     height: 100%;
         width: 20%;
         margin: auto;
 
         p{
             display: table-cell;
             vertical-align:  middle;
-            margin: -30px auto;
+       //     margin: -30px auto;
             text-decoration: none;
 
         span{
@@ -70,18 +74,20 @@ li{
         @include flex();
       //  display: none;
       background-color: $primary;
-   justify-content: flex-end;
+      background-color: red;
+       justify-content: flex-end;
       width: 80%;
       text-align: center;
       margin: auto;
-      height: 30px;
+        //  height: 30px;
+        height: 100%;
+     //   padding-right: 5px;
 
         &__item{
             flex: 1;
             cursor: pointer;
             width: 40px;
-            display: table;
-            height: 30px;
+          height: 100%;
             cursor: pointer;
             font-size: 1.3em;
             text-align: center;
@@ -89,9 +95,7 @@ li{
 
             p{
                 color: $white;
-                display: table-cell;
                 font-size: 0.8em;
-                vertical-align: middle;
             }
         }
 
@@ -102,9 +106,13 @@ li{
 
 }
 
-.app{
-    background-color: $white;
-    background-color: blue;
+#app{
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: auto;
 
 }
 
@@ -114,6 +122,7 @@ li{
     margin: 0 auto;
     @include flex();
     justify-content: start;
+    display: none;
 
     &__card{
         @include flex();

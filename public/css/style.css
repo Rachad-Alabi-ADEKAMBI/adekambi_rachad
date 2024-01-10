@@ -18,8 +18,8 @@ li {
 
 .header {
   width: 60%;
-  margin: 30px auto 0px auto;
-  height: 30px;
+  margin: 20px auto;
+  height: 60px;
   background-color: #100F3A;
   display: flex;
   flex-direction: row;
@@ -32,13 +32,14 @@ li {
   display: table;
   font-size: 1.2em;
   cursor: pointer;
+  background-color: purple;
+  height: 100%;
   width: 20%;
   margin: auto;
 }
 .header__logo p {
   display: table-cell;
   vertical-align: middle;
-  margin: -30px auto;
   text-decoration: none;
 }
 .header__logo p span {
@@ -53,18 +54,18 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #100F3A;
+  background-color: red;
   justify-content: flex-end;
   width: 80%;
   text-align: center;
   margin: auto;
-  height: 30px;
+  height: 100%;
 }
 .header__list__item {
   flex: 1;
   cursor: pointer;
   width: 40px;
-  display: table;
-  height: 30px;
+  height: 100%;
   cursor: pointer;
   font-size: 1.3em;
   text-align: center;
@@ -72,17 +73,19 @@ li {
 }
 .header__list__item p {
   color: white;
-  display: table-cell;
   font-size: 0.8em;
-  vertical-align: middle;
 }
 .header__list__item:hover {
   background-color: #8583E1;
 }
 
-.app {
-  background-color: white;
-  background-color: blue;
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: auto;
 }
 
 .main {
@@ -93,6 +96,7 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: start;
+  display: none;
 }
 .main__card {
   display: flex;
