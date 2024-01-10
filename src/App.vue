@@ -9,7 +9,7 @@
           <strong>
             CREATIF
           </strong>
-        </router-link> |
+        </router-link>
       </p>
       </div>
 
@@ -66,7 +66,7 @@ nav a {
   color: #2c3e50;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+p{
+  text-decoration: none;
 }
 </style>

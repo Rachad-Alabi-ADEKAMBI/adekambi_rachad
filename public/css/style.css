@@ -88,6 +88,11 @@ li {
   background-color: #8583E1;
 }
 
+.specific-item {
+  /* Your specific styles for the 'About' page */
+  background-color: lightblue;
+}
+
 .main {
   width: 90%;
   margin: 0 auto;
@@ -280,4 +285,9 @@ li {
   font-size: 1.2em;
   color: #100F3A;
   color: #8583E1;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*responsive for 1024px*/
+/*responsive for 767px*/
+/*responsive for 550px*/
+/*responsive for 350px*//*# sourceMappingURL=style.css.map */
