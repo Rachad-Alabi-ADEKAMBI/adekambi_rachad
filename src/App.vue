@@ -14,7 +14,7 @@
       </div>
 
       <div class="header__list">
-          <div class="header__list__item">
+          <div class="header__list__item" >
               <router-link to="/about" >
                 <p>About</p>
               </router-link>

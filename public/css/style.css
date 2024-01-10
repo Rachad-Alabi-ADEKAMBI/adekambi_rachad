@@ -6,6 +6,7 @@ html, body {
   line-height: 1.5em;
   font-family: "Montserrat";
   font-size: 1em;
+  list-style: none;
 }
 
 h2 {
@@ -14,69 +15,6 @@ h2 {
 
 li {
   list-style: none;
-}
-
-.header {
-  width: 60%;
-  margin: 20px auto;
-  height: 60px;
-  background-color: #100F3A;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: start;
-}
-.header__logo {
-  display: table;
-  font-size: 1.2em;
-  cursor: pointer;
-  background-color: purple;
-  height: 100%;
-  width: 20%;
-  margin: auto;
-}
-.header__logo p {
-  display: table-cell;
-  vertical-align: middle;
-  text-decoration: none;
-}
-.header__logo p span {
-  color: white;
-}
-.header__logo p strong {
-  color: #8583E1;
-}
-.header__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: #100F3A;
-  background-color: red;
-  justify-content: flex-end;
-  width: 80%;
-  text-align: center;
-  margin: auto;
-  height: 100%;
-}
-.header__list__item {
-  flex: 1;
-  cursor: pointer;
-  width: 40px;
-  height: 100%;
-  cursor: pointer;
-  font-size: 1.3em;
-  text-align: center;
-  border: 1px solid white;
-}
-.header__list__item p {
-  color: white;
-  font-size: 0.8em;
-}
-.header__list__item:hover {
-  background-color: #8583E1;
 }
 
 #app {
@@ -88,6 +26,68 @@ li {
   margin: auto;
 }
 
+.header {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: flex-start;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0;
+  height: 60px;
+  font-weight: bold;
+}
+.header__logo {
+  display: table;
+  font-size: 1.5em;
+  cursor: pointer;
+  height: 100%;
+  width: 150px;
+}
+.header__logo p {
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.header__logo p span {
+  color: #8583E1;
+}
+.header__logo p strong {
+  color: #8583E1;
+}
+.header__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #100F3A;
+  justify-content: flex-end;
+  width: 600px;
+  text-align: center;
+  height: 100%;
+}
+.header__list__item {
+  flex: 1;
+  cursor: pointer;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1.3em;
+  text-align: center;
+  border: 1px solid white;
+}
+.header__list__item p {
+  color: white;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+.header__list__item:hover {
+  background-color: #8583E1;
+}
+
 .main {
   width: 90%;
   margin: 0 auto;
@@ -96,7 +96,6 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: start;
-  display: none;
 }
 .main__card {
   display: flex;

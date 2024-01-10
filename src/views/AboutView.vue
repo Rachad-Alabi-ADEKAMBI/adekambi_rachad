@@ -22,6 +22,9 @@ name: 'AboutView',
 components: {
   Profile,
   About
-}
+},
+isCurrentPage(route) {
+      return this.$route.path === route;
+    },
 }
 </script>

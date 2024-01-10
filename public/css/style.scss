@@ -23,6 +23,7 @@ html, body{
     line-height: 1.5em;
     font-family: 'Montserrat';
     font-size: 1em;
+    list-style: none;
 }
 
 h2{
@@ -33,26 +34,33 @@ li{
     list-style: none;
 }
 
+#app{
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: auto;
+}
+
+
 .header{
-    width: 60%;
-    margin: 20px auto;
- //   height: 30px;
- height: 60px;
-    background-color:  $primary;
+    width: 90%;
+    margin: 20px auto 0 auto;
     @include flex();
     text-align: center;
-    justify-content: start;
-   // display: none;
+    justify-content: flex-start;
+    height: max-content;
+    padding: 0;
+    height: 60px;
+    font-weight: bold;
 
     &__logo{
         display: table;
-        font-size: 1.2em;
+        font-size: 1.5em;
         cursor: pointer;
-     //   background-color: black;
-     background-color: purple;
      height: 100%;
-        width: 20%;
-        margin: auto;
+        width: 150px;
 
         p{
             display: table-cell;
@@ -61,7 +69,7 @@ li{
             text-decoration: none;
 
         span{
-            color: $white;
+            color: $secondary;
         }
 
         strong{
@@ -72,21 +80,15 @@ li{
 
     &__list{
         @include flex();
-      //  display: none;
-      background-color: $primary;
-      background-color: red;
-       justify-content: flex-end;
-      width: 80%;
-      text-align: center;
-      margin: auto;
-        //  height: 30px;
+        background-color: $primary;
+        justify-content: flex-end;
+        width: 600px;
+        text-align: center;
         height: 100%;
-     //   padding-right: 5px;
 
         &__item{
             flex: 1;
             cursor: pointer;
-            width: 40px;
           height: 100%;
             cursor: pointer;
             font-size: 1.3em;
@@ -96,6 +98,7 @@ li{
             p{
                 color: $white;
                 font-size: 0.8em;
+                text-decoration: none;
             }
         }
 
@@ -106,23 +109,12 @@ li{
 
 }
 
-#app{
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin: auto;
-
-}
-
 .main{
  //   background-color: red;
     width: 90%;
     margin: 0 auto;
     @include flex();
     justify-content: start;
-    display: none;
 
     &__card{
         @include flex();
@@ -329,3 +321,17 @@ li{
     }
 }
 
+/*responsive for 1024px*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+}
+
+/*responsive for 767x*/
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+}
+
+/*responsive for 350px*/
+@media screen and (min-width: 350px) and (max-width: 766px){
+
+}
