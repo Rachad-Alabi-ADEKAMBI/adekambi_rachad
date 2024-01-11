@@ -33,20 +33,42 @@
        </div>
 
        <div class="education">
+        <div class="education__date">
+            2012
+        </div>
 
+        <div class="education__details">
+            <img src="img/eneam.png" alt="openclassrooms student">
+            <p>
+              <span>ENEAM</span> <br>
+              <strong>Higher National Diploma in accounting</strong>
+            </p>
+        </div>
+      </div>
 
-<div class="education__date">
-    2020
-</div>
+       <div class="education">
+        <div class="education__date">
+            2010
+        </div>
 
-<div class="education__details">
-    <img src="img/open_classrooms.jpg" alt="openclassrooms student">
-    <p>
-      <span>Open classrooms</span> <br>
-      <strong>B.Sc. in Computer System and Software </strong>
-    </p>
-</div>
-</div>
+        <div class="education__details">
+            <img src="img/edu.png" alt="bachelor degree">
+            <p>
+              <span>CS LA GRACE</span> <br>
+              <strong>Bachelor's degree</strong>
+            </p>
+        </div>
+      </div>
+
+      <h2 class="education__title">
+        My certifications
+      </h2>
+
+      <p>
+        <span class="red">*</span>
+        Copy and paste my name into the openclassroom request field to display the certificate.
+          Click here to Copy <a href="">Rachad</a>
+      </p>
   </div>
 </template>
 

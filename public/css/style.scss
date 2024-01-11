@@ -26,12 +26,23 @@ html, body{
     list-style: none;
 }
 
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: $primary;
+}
+
 h2{
     font-size: 2em;
 }
 
 li{
     list-style: none;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
 }
 
 #app{
@@ -242,6 +253,64 @@ li{
             .education{
                 @include flex();
                 justify-content: start;
+                margin: 30px auto;
+
+                &__title{
+                    color: $primary;
+                    font-weight: bold;
+                    font-size: 3em;
+                    margin: 45px auto;
+                }
+
+
+                &__date{
+                    color: $secondary;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                }
+
+                &__details{
+                    @include flex();
+                    text-align: center;
+                    margin: auto 10px;
+                    width: 80%;
+                    justify-content: start;
+
+                    img{
+                        width: 60px;
+                        height: 60px;
+                        margin: auto 10px;
+                    }
+
+                    p{
+                        text-align: left;
+                        margin: auto 20px;
+
+                        span{
+                            color: $primary;
+                            font-weight: bold;
+                            font-size: 1.5em;
+                        }
+
+                        strong{
+                            color: $grey-dark;
+                        }
+                    }
+                }
+            }
+
+            .certification{
+                @include flex();
+                justify-content: start;
+                margin: 30px auto;
+
+                &__title{
+                    color: $primary;
+                    font-weight: bold;
+                    font-size: 3em;
+                    margin: 45px auto;
+                }
+
 
                 &__date{
                     color: $secondary;

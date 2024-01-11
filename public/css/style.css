@@ -9,12 +9,23 @@ html, body {
   list-style: none;
 }
 
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #100F3A;
+}
+
 h2 {
   font-size: 2em;
 }
 
 li {
   list-style: none;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
 }
 
 #app {
@@ -218,6 +229,13 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: start;
+  margin: 30px auto;
+}
+.main__content .content .education__title {
+  color: #100F3A;
+  font-weight: bold;
+  font-size: 3em;
+  margin: 45px auto;
 }
 .main__content .content .education__date {
   color: #8583E1;
@@ -249,6 +267,52 @@ li {
   font-size: 1.5em;
 }
 .main__content .content .education__details p strong {
+  color: #a5a5a5;
+}
+.main__content .content .certification {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 30px auto;
+}
+.main__content .content .certification__title {
+  color: #100F3A;
+  font-weight: bold;
+  font-size: 3em;
+  margin: 45px auto;
+}
+.main__content .content .certification__date {
+  color: #8583E1;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.main__content .content .certification__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto 10px;
+  width: 80%;
+  justify-content: start;
+}
+.main__content .content .certification__details img {
+  width: 60px;
+  height: 60px;
+  margin: auto 10px;
+}
+.main__content .content .certification__details p {
+  text-align: left;
+  margin: auto 20px;
+}
+.main__content .content .certification__details p span {
+  color: #100F3A;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.main__content .content .certification__details p strong {
   color: #a5a5a5;
 }
 
