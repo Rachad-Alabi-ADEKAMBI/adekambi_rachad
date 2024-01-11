@@ -361,6 +361,39 @@ li{
                 }
             }
 
+            .portfolio{
+                display: block;
+
+                &__menu{
+                    @include flex();
+                    text-align: center;
+                    margin: auto;
+
+                    a{
+                        //flex: 1;
+                        color: $grey-dark;
+                        margin: auto;
+                        font-weight: bold;
+                        font-size: 1.3em;
+                        text-decoration: none;
+                    }
+
+                    a:hover{
+                        color: $primary;
+                    }
+                }
+
+                &__items{
+                    @include flex();
+
+                    .item{
+                        img{
+
+                        }
+                    }
+                }
+            }
+
 
         }
     }

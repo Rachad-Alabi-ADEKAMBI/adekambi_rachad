@@ -325,7 +325,33 @@ li {
   color: white;
   padding: 5px;
 }
-
+.main__content .content .portfolio {
+  display: block;
+}
+.main__content .content .portfolio__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+}
+.main__content .content .portfolio__menu a {
+  color: #a5a5a5;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+.main__content .content .portfolio__menu a:hover {
+  color: #100F3A;
+}
+.main__content .content .portfolio__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .profile {
   width: 340px;
   margin: auto;
