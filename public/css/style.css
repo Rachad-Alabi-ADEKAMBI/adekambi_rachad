@@ -281,7 +281,7 @@ li {
   color: #100F3A;
   font-weight: bold;
   font-size: 3em;
-  margin: 45px auto;
+  margin: 60px auto;
 }
 .main__content .content .certification__date {
   color: #8583E1;
@@ -314,6 +314,16 @@ li {
 }
 .main__content .content .certification__details p strong {
   color: #a5a5a5;
+}
+.main__content .content .certification__details p a {
+  text-decoration: none;
+  color: #a5a5a5;
+  border-bottom: 1px solid #FFA07F;
+}
+.main__content .content .certification__details p a:hover {
+  background-color: #FFA07F;
+  color: white;
+  padding: 5px;
 }
 
 .profile {

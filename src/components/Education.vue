@@ -69,6 +69,54 @@
         Copy and paste my name into the openclassroom request field to display the certificate.
           Click here to Copy <a href="">Rachad</a>
       </p>
+
+      <div class="certification">
+          <div class="certification__date">
+            2019
+          </div>
+
+          <div class="certification__details">
+            <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
+            <p>
+              <span>Open classroom</span> <br>
+              <strong>PHP</strong> <br>
+              <a href="">View certificate</a>
+            </p>
+          </div>
+
+      </div>
+
+      <div class="certification">
+          <div class="certification__date">
+            2019
+          </div>
+
+          <div class="certification__details">
+            <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
+            <p>
+              <span>Open classroom</span> <br>
+              <strong>Javascript</strong> <br>
+              <a href="">View certificate</a>
+            </p>
+          </div>
+
+      </div>
+
+      <div class="certification">
+          <div class="certification__date">
+            2019
+          </div>
+
+          <div class="certification__details">
+            <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
+            <p>
+              <span>Open classroom</span> <br>
+              <strong>Git</strong> <br>
+              <a href="">View certificate</a>
+            </p>
+          </div>
+
+      </div>
   </div>
 </template>
 

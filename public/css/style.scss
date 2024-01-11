@@ -5,6 +5,7 @@ $grey: #f1f3f5;
 $grey-dark:  #a5a5a5;
 $white: white;
 $black: black;
+$pink: #FFA07F;
 
 @mixin flex($flex-direction: row){
     display: flex;
@@ -308,7 +309,7 @@ li{
                     color: $primary;
                     font-weight: bold;
                     font-size: 3em;
-                    margin: 45px auto;
+                    margin: 60px auto;
                 }
 
 
@@ -343,6 +344,18 @@ li{
 
                         strong{
                             color: $grey-dark;
+                        }
+
+                        a{
+                            text-decoration: none;
+                            color: $grey-dark;
+                            border-bottom: 1px solid $pink;
+                        }
+
+                        a:hover{
+                            background-color: $pink;
+                            color: $white;
+                            padding: 5px;
                         }
                     }
                 }
