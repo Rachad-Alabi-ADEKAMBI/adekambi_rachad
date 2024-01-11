@@ -241,11 +241,9 @@ li{
 
             .education{
                 @include flex();
-                justify-content: baseline;
                 justify-content: start;
 
                 &__date{
-                  //  width: 25%;
                     color: $secondary;
                     font-size: 1.3em;
                     font-weight: bold;
@@ -254,15 +252,29 @@ li{
                 &__details{
                     @include flex();
                     text-align: center;
-                    margin: auto 20px;
+                    margin: auto 10px;
+                    width: 80%;
+                    justify-content: start;
 
                     img{
                         width: 60px;
                         height: 60px;
+                        margin: auto 10px;
                     }
 
                     p{
-                        text-align: center;
+                        text-align: left;
+                        margin: auto 20px;
+
+                        span{
+                            color: $primary;
+                            font-weight: bold;
+                            font-size: 1.5em;
+                        }
+
+                        strong{
+                            color: $grey-dark;
+                        }
                     }
                 }
             }

@@ -13,19 +13,40 @@
        </div>
 
        <h1>
-         My education
-       </h1>
+          My education
+        </h1>
 
        <div class="education">
+
+
           <div class="education__date">
               2020
           </div>
 
           <div class="education__details">
               <img src="img/open_classrooms.jpg" alt="openclassrooms student">
-              <p>B.Sc. in Computer System and Software </p>
+              <p>
+                <span>Open classrooms</span> <br>
+                <strong>B.Sc. in Computer System and Software </strong>
+              </p>
           </div>
        </div>
+
+       <div class="education">
+
+
+<div class="education__date">
+    2020
+</div>
+
+<div class="education__details">
+    <img src="img/open_classrooms.jpg" alt="openclassrooms student">
+    <p>
+      <span>Open classrooms</span> <br>
+      <strong>B.Sc. in Computer System and Software </strong>
+    </p>
+</div>
+</div>
   </div>
 </template>
 
