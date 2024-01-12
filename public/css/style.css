@@ -335,15 +335,17 @@ li {
   flex-wrap: wrap;
   text-align: center;
   margin: auto;
+  justify-content: start;
 }
-.main__content .content .portfolio__menu a {
+.main__content .content .portfolio__menu span {
+  cursor: pointer;
   color: #a5a5a5;
   margin: auto;
   font-weight: bold;
   font-size: 1.3em;
   text-decoration: none;
 }
-.main__content .content .portfolio__menu a:hover {
+.main__content .content .portfolio__menu span:hover {
   color: #100F3A;
 }
 .main__content .content .portfolio__items {

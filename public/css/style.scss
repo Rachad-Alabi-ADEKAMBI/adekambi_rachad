@@ -368,9 +368,10 @@ li{
                     @include flex();
                     text-align: center;
                     margin: auto;
+                    justify-content: start;
 
-                    a{
-                        //flex: 1;
+                    span{
+                        cursor: pointer;
                         color: $grey-dark;
                         margin: auto;
                         font-weight: bold;
@@ -378,7 +379,7 @@ li{
                         text-decoration: none;
                     }
 
-                    a:hover{
+                    span:hover{
                         color: $primary;
                     }
                 }
