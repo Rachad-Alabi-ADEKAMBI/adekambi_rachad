@@ -48,7 +48,43 @@
       </div>
 
       <div class="header__icon">
-          <span>Menu</span>
+          <span>MENU</span>
+      </div>
+
+      <div class="header__responsive">
+            <div class="header__responsive__item">
+                <router-link to="/about" >
+                  <p>About</p>
+                </router-link>
+            </div>
+
+            <div class="header__responsive__item">
+                <router-link to="/skills" >
+                  <p>Skills</p>
+                </router-link>
+            </div>
+
+            <div class="header__responsive__item">
+                <router-link to="/experience" >
+                  <p>Experience</p>
+                </router-link>
+            </div>
+
+            <div class="header__responsive__item">
+                <router-link to="/education" >
+                  <p>Education</p>
+                </router-link>
+            </div>
+
+            <div class="header__responsive__item">
+                <router-link to="/portfolio" >
+                  <p>Porfolio</p>
+                </router-link>
+            </div>
+
+            <div class="header__responsive__item down">
+                  <p>Menu</p>
+            </div>
       </div>
   </nav>
   <router-view/>
