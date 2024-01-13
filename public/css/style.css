@@ -98,6 +98,9 @@ li {
 .header__list__item:hover {
   background-color: #8583E1;
 }
+.header__icon span {
+  color: #100F3A;
+}
 
 .main {
   width: 90%;
@@ -353,7 +356,23 @@ li {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: start;
 }
+.main__content .content .portfolio__items .item {
+  margin: 20px auto auto 0;
+}
+.main__content .content .portfolio__items .item img {
+  width: 350px;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: auto;
+}
+.main__content .content .skills {
+  display: block;
+}
+
 .profile {
   width: 340px;
   margin: auto;

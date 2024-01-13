@@ -23,6 +23,18 @@
           <img :src="getImgUrl(detail.pic1)" alt="">
         </div>
       </div>
+
+      <div class="portfolio__items" v-if="showWebsites">
+        <div class="item" v-for="detail in websites" :key="detail.id">
+          <img :src="getImgUrl(detail.pic1)" alt="">
+        </div>
+      </div>
+
+      <div class="portfolio__items" v-if="showPlugins">
+        <div class="item" v-for="detail in plugins" :key="detail.id">
+          <img :src="getImgUrl(detail.pic1)" alt="">
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -39,7 +51,23 @@ export default {
       showWebsites: false,
       showPlugins: false,
       all: [
-        { id: 1, name: 'nbroker', pic1: '/sites/nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' }
+        { id: 1, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 2, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 3, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 4, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+      ],
+      websites: [
+        { id: 1, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 2, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 3, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 4, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+
+      ],
+      plugins: [
+        { id: 1, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 2, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 3, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 4, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
       ]
     };
   },
@@ -64,7 +92,7 @@ export default {
       this.showPlugins = true;
     },
     getImgUrl(pic) {
-    //  return require(`@/public/img/${pic}`);
+      return "img/sites/" + pic;
     }
   }
 };

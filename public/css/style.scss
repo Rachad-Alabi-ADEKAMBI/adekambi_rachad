@@ -119,6 +119,12 @@ li{
         }
     }
 
+    &__icon{
+        span{
+            color: $primary;
+        }
+    }
+
 }
 
 .main{
@@ -386,16 +392,25 @@ li{
 
                 &__items{
                     @include flex();
+                    margin: 20px auto;
+                    justify-content: start;
 
                     .item{
+                        margin: 20px auto auto 0;
                         img{
-
+                            width: 350px;
+                            height: 250px;
+                            cursor: pointer;
+                            border-radius: 5px;
+                            margin: auto;
                         }
                     }
                 }
             }
 
-
+            .skills{
+                display: block;
+            }
         }
     }
 }
@@ -451,7 +466,9 @@ li{
 
 /*responsive for 1024px*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .header{
 
+    }
 }
 
 /*responsive for 767px*/

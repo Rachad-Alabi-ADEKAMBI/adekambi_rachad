@@ -11,19 +11,31 @@
            <i class="fas fa-download"></i>
          </div>
        </div>
-       <span>
-        What I am good at
 
-       </span>
+       <div class="skills">
+            <span>
+            What I am good at
 
-       <h1>
-         My skills
-       </h1>
+          </span>
 
-       <p>
-        I have 4 years of experience as a back-end developer,
-        during these 2 years I was able to acquire thanks to my ability to quickly learn more tips to perfect my work and discover a lot of new technologies.
-       </p>
+          <h1>
+            My skills
+          </h1>
+
+          <p>
+            I have 4 years of experience as a back-end developer,
+            during these 2 years I was able to acquire thanks to my ability to quickly learn more tips to perfect my work and discover a lot of new technologies.
+          </p>
+
+          <div class="skills__list">
+              <span>
+                Languages
+              </span>
+            <div class="skill">
+                <img src="/public/img/logos/langages/php.png" alt="">
+            </div>
+          </div>
+       </div>
 
 
   </div>

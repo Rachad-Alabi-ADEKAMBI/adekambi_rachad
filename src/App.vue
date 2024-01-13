@@ -46,6 +46,10 @@
               </router-link>
           </div>
       </div>
+
+      <div class="header__icon">
+          <span>Menu</span>
+      </div>
   </nav>
   <router-view/>
 
