@@ -136,20 +136,34 @@ li{
     }
 
     &__responsive{
-        width: 250px;
+        width: 200px;
        display: block;
+       z-index: 9999;
+       background-color: $grey;
+       height: 350px;
+       position: relative;
 
        &__item{
-            margin: 15px auto;
+            margin: 20px auto;
             text-decoration: none;
+            text-align: right;
 
             p{
                 cursor: pointer;
+                margin-right: 10px;
+            }
+       }
+
+       &__item:hover{
+            p{
+                color: $secondary;
             }
        }
 
        .down{
+        position: absolute;
         bottom: 0;
+        right: 10px;
        }
     }
 
@@ -161,6 +175,7 @@ li{
     margin: 0 auto;
     @include flex();
     justify-content: start;
+    z-index: -9999;
 
     &__card{
         @include flex();
@@ -177,6 +192,7 @@ li{
     &__content{
         width: 70%;
         background-color: $grey;
+        padding-bottom: 50px;
         .content{
             width: 100%;
             height: 100%;

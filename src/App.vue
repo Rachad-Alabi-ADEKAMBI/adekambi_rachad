@@ -47,11 +47,12 @@
           </div>
       </div>
 
-      <div class="header__icon">
+      <div class="header__icon" id="display"
+         onclick="displayMenu()" >
           <span>MENU</span>
       </div>
 
-      <div class="header__responsive">
+      <div class="header__responsive" id="menu">
             <div class="header__responsive__item">
                 <router-link to="/about" >
                   <p>About</p>
@@ -82,7 +83,8 @@
                 </router-link>
             </div>
 
-            <div class="header__responsive__item down">
+            <div class="header__responsive__item down" id="closeMenu"
+                  onclick="closeMenu()">
                   <p>Menu</p>
             </div>
       </div>

@@ -113,18 +113,29 @@ li {
   color: #8583E1;
 }
 .header__responsive {
-  width: 250px;
+  width: 200px;
   display: block;
+  z-index: 9999;
+  background-color: #f1f3f5;
+  height: 350px;
+  position: relative;
 }
 .header__responsive__item {
-  margin: 15px auto;
+  margin: 20px auto;
   text-decoration: none;
+  text-align: right;
 }
 .header__responsive__item p {
   cursor: pointer;
+  margin-right: 10px;
+}
+.header__responsive__item:hover p {
+  color: #8583E1;
 }
 .header__responsive .down {
+  position: absolute;
   bottom: 0;
+  right: 10px;
 }
 
 .main {
@@ -135,6 +146,7 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: start;
+  z-index: -9999;
 }
 .main__card {
   display: flex;
@@ -152,6 +164,7 @@ li {
 .main__content {
   width: 70%;
   background-color: #f1f3f5;
+  padding-bottom: 50px;
 }
 .main__content .content {
   width: 100%;
