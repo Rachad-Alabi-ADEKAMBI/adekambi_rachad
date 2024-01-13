@@ -15,8 +15,10 @@ h1 {
   color: #100F3A;
 }
 
-h2 {
-  font-size: 2em;
+h2, .title {
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #100F3A;
 }
 
 li {
@@ -101,6 +103,7 @@ li {
 .header__icon {
   text-align: center;
   display: table;
+  display: none;
 }
 .header__icon span {
   color: #100F3A;
@@ -114,11 +117,11 @@ li {
 }
 .header__responsive {
   width: 200px;
-  display: block;
   z-index: 9999;
   background-color: #f1f3f5;
   height: 350px;
   position: relative;
+  display: none;
 }
 .header__responsive__item {
   margin: 20px auto;
@@ -270,7 +273,7 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: start;
-  margin: 30px auto;
+  margin: 45px auto;
 }
 .main__content .content .education__title {
   color: #100F3A;
@@ -282,6 +285,7 @@ li {
   color: #8583E1;
   font-size: 1.3em;
   font-weight: bold;
+  width: 10%;
 }
 .main__content .content .education__details {
   display: flex;
@@ -289,14 +293,15 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
-  margin: auto 10px;
-  width: 80%;
+  margin: auto 0;
+  width: 90%;
   justify-content: start;
 }
 .main__content .content .education__details img {
-  width: 60px;
-  height: 60px;
-  margin: auto 10px;
+  width: 70px;
+  height: 70px;
+  margin: auto 15px;
+  border-radius: 5px;
 }
 .main__content .content .education__details p {
   text-align: left;
@@ -316,18 +321,13 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   justify-content: start;
-  margin: 30px auto;
-}
-.main__content .content .certification__title {
-  color: #100F3A;
-  font-weight: bold;
-  font-size: 3em;
-  margin: 60px auto;
+  margin: 45px auto;
 }
 .main__content .content .certification__date {
   color: #8583E1;
   font-size: 1.3em;
   font-weight: bold;
+  width: 10%;
 }
 .main__content .content .certification__details {
   display: flex;
@@ -335,14 +335,15 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
-  margin: auto 10px;
-  width: 80%;
+  margin: auto 0;
+  width: 90%;
   justify-content: start;
 }
 .main__content .content .certification__details img {
-  width: 60px;
-  height: 60px;
-  margin: auto 10px;
+  width: 70px;
+  height: 70px;
+  margin: auto 15px;
+  border-radius: 5px;
 }
 .main__content .content .certification__details p {
   text-align: left;
@@ -560,4 +561,52 @@ li {
     flex: 1;
   }
 }
-/*responsive for 350px*//*# sourceMappingURL=style.css.map */
+/*responsive for 350px*/
+@media screen and (min-width: 350px) and (max-width: 549px) {
+  .header {
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .header__list {
+    display: none;
+  }
+  .header__icon {
+    display: table;
+  }
+  .header__responsive {
+    display: none;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main__card {
+    width: 100%;
+  }
+  .main__content {
+    width: 100%;
+  }
+  .profile {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .profile__pic {
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+  }
+  .profile__pic img {
+    height: 330px;
+    width: 300px;
+    margin: auto;
+  }
+  .profile__details {
+    flex: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

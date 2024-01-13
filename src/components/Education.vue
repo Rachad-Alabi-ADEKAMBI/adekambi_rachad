@@ -12,7 +12,7 @@
          </div>
        </div>
 
-       <h1>
+       <h1 class="title">
           My education
         </h1>
 
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <h2 class="education__title">
+      <h2 class="title">
         My certifications
       </h2>
 
