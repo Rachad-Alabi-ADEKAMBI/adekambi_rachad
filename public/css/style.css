@@ -180,41 +180,6 @@ li {
   text-align: left;
   display: block;
 }
-.main__content .content .infos .message {
-  margin: auto 60px auto auto;
-  width: -moz-max-content;
-  width: max-content;
-  background-color: #8583E1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  text-align: center;
-  height: 45px;
-  color: white;
-  padding-left: 5px;
-  cursor: pointer;
-}
-.main__content .content .infos .message__text {
-  display: table;
-}
-.main__content .content .infos .message__text p {
-  display: table-cell;
-  vertical-align: middle;
-}
-.main__content .content .infos .message__btn {
-  background-color: #100F3A;
-  width: 45px;
-  text-align: center;
-  margin: auto 0 auto 10px;
-  height: 100%;
-  display: table;
-}
-.main__content .content .infos .message__btn i {
-  color: white;
-  display: table-cell;
-  vertical-align: middle;
-}
 .main__content .content .infos .message:hover {
   background-color: #100F3A;
 }
@@ -411,6 +376,41 @@ li {
 .main__content .content .skills {
   display: block;
 }
+.main__content .content .message {
+  margin: auto 60px auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #8583E1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 45px;
+  color: white;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.main__content .content .message__text {
+  display: table;
+}
+.main__content .content .message__text p {
+  display: table-cell;
+  vertical-align: middle;
+}
+.main__content .content .message__btn {
+  background-color: #100F3A;
+  width: 45px;
+  text-align: center;
+  margin: auto 0 auto 10px;
+  height: 100%;
+  display: table;
+}
+.main__content .content .message__btn i {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
 
 .profile {
   width: 340px;
@@ -427,6 +427,41 @@ li {
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+.profile__pic__message .message {
+  margin: auto 0px auto auto;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: #8583E1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  height: 45px;
+  color: white;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.profile__pic__message .message__text {
+  display: table;
+}
+.profile__pic__message .message__text p {
+  display: table-cell;
+  vertical-align: middle;
+}
+.profile__pic__message .message__btn {
+  background-color: #100F3A;
+  width: 45px;
+  text-align: center;
+  margin: auto 0 auto 10px;
+  height: 100%;
+  display: table;
+}
+.profile__pic__message .message__btn i {
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
 }
 .profile__details {
   text-align: center;

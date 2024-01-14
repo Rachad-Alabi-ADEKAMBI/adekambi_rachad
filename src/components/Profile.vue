@@ -3,7 +3,7 @@
         <div class="profile__pic">
             <img src="img/logo.jpeg" alt="full stack developer">
             <div class="profile__pic__message">
-                <div class="message">
+                <div class="message" id="message">
                     <div class="message__text">
                         <p>
                         Available for freelance work

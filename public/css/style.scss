@@ -208,40 +208,7 @@ li{
                 text-align: left;
                 display: block;
 
-                .message{
-                    margin: auto 60px auto auto;
-                    width: max-content;
-                    background-color: $secondary;
-                    @include flex();
-                    text-align: center;
-                    height: 45px;
-                    color: $white;
-                    padding-left: 5px;
-                    cursor: pointer;
 
-                  &__text{
-                    display: table;
-
-                    p{
-                        display: table-cell;
-                        vertical-align: middle;
-                    }
-                  }
-
-                    &__btn{
-                        background-color: $primary;
-                        width: 45px;
-                        text-align: center;
-                        margin: auto 0 auto 10px;
-                        height: 100%;
-                        display: table;
-                        i{
-                            color: $white;
-                            display: table-cell;
-                            vertical-align: middle;
-                        }
-                    }
-                }
 
                 .message:hover{
                     background-color: $primary;
@@ -455,6 +422,41 @@ li{
             .skills{
                 display: block;
             }
+
+            .message{
+                margin: auto 60px auto auto;
+                width: max-content;
+                background-color: $secondary;
+                @include flex();
+                text-align: center;
+                height: 45px;
+                color: $white;
+                padding-left: 5px;
+                cursor: pointer;
+
+              &__text{
+                display: table;
+
+                p{
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+              }
+
+                &__btn{
+                    background-color: $primary;
+                    width: 45px;
+                    text-align: center;
+                    margin: auto 0 auto 10px;
+                    height: 100%;
+                    display: table;
+                    i{
+                        color: $white;
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
+                }
+            }
         }
     }
 }
@@ -474,6 +476,41 @@ li{
             position: absolute;
             bottom: 10px;
             right: 10px;
+
+            .message{
+                margin: auto 00px auto auto;
+                width: max-content;
+                background-color: $secondary;
+                @include flex();
+                text-align: center;
+                height: 45px;
+                color: $white;
+                padding-left: 5px;
+                cursor: pointer;
+
+              &__text{
+                display: table;
+
+                p{
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+              }
+
+                &__btn{
+                    background-color: $primary;
+                    width: 45px;
+                    text-align: center;
+                    margin: auto 0 auto 10px;
+                    height: 100%;
+                    display: table;
+                    i{
+                        color: $white;
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
+                }
+            }
         }
     }
 
