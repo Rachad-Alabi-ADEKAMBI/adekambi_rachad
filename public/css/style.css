@@ -416,9 +416,17 @@ li {
   width: 340px;
   margin: auto;
 }
+.profile__pic {
+  position: relative;
+}
 .profile__pic img {
   width: 100%;
   height: 350px;
+}
+.profile__pic__message {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 .profile__details {
   text-align: center;

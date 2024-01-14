@@ -2,7 +2,18 @@
     <div class="profile">
         <div class="profile__pic">
             <img src="img/logo.jpeg" alt="full stack developer">
-
+            <div class="profile__pic__message">
+                <div class="message">
+                    <div class="message__text">
+                        <p>
+                        Available for freelance work
+                        </p>
+                    </div>
+                        <div class="message__btn">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    </div>
+            </div>
         </div>
 
         <div class="profile__details">
@@ -51,6 +62,8 @@
                   </p>
             </div>
         </div>
+
+
     </div>
 
 </template>
