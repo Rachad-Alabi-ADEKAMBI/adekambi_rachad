@@ -427,6 +427,7 @@ li {
   position: absolute;
   bottom: 10px;
   right: 10px;
+  display: none;
 }
 .profile__pic__message .message {
   margin: auto 0px auto auto;
