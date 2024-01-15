@@ -529,6 +529,9 @@ li {
   .profile__pic {
     flex: 1;
   }
+  .profile__pic__message {
+    display: block;
+  }
   .profile__details {
     flex: 1;
   }
