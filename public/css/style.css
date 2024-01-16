@@ -653,6 +653,9 @@ li {
     width: 300px;
     margin: auto;
   }
+  .profile__pic__message {
+    display: block;
+  }
   .profile__details {
     flex: 1;
   }
