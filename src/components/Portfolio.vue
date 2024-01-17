@@ -93,6 +93,9 @@ export default {
     },
     getImgUrl(pic) {
       return "img/sites/" + pic;
+    },
+    displayApp(id){
+
     }
   }
 };
