@@ -95,6 +95,7 @@ export default {
       return "img/sites/" + pic;
     },
     displayApp(id){
+        this.id = id;
 
     }
   }
