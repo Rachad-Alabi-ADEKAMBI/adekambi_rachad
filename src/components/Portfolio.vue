@@ -35,6 +35,12 @@
           <img :src="getImgUrl(detail.pic1)" alt="">
         </div>
       </div>
+
+      <div class="portfolio__items" v-if="showApp">
+          <div class="item" >
+
+          </div>
+      </div>
     </div>
   </div>
 </template>
@@ -69,7 +75,8 @@ export default {
         { id: 2, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
         { id: 3, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
         { id: 4, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
-      ]
+      ],
+      details: {}
     };
   },
   mounted() {
