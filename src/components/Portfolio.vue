@@ -25,13 +25,13 @@
       </div>
 
       <div class="portfolio__items" v-if="showWebsites">
-        <div class="item" v-for="detail in websites" :key="detail.id">
+        <div class="item" v-for="detail in websites" :key="detail.id" @click="displayApp(id)">
           <img :src="getImgUrl(detail.pic1)" alt="">
         </div>
       </div>
 
       <div class="portfolio__items" v-if="showPlugins">
-        <div class="item" v-for="detail in plugins" :key="detail.id">
+        <div class="item" v-for="detail in plugins" :key="detail.id" @click="displayApp(id)">
           <img :src="getImgUrl(detail.pic1)" alt="">
         </div>
       </div>
