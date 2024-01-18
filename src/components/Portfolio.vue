@@ -50,6 +50,7 @@ export default {
       showAll: true,
       showWebsites: false,
       showPlugins: false,
+      showApp: false,
       all: [
         { id: 1, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
         { id: 2, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
@@ -80,22 +81,29 @@ export default {
       this.showAll = true;
       this.showWebsites = false;
       this.showPlugins = false;
+      this.showApp = false;
     },
     displayWebsites() {
       this.showAll = false;
       this.showWebsites = true;
       this.showPlugins = false;
+      this.showApp = false;
     },
     displayPlugins() {
       this.showAll = false;
       this.showWebsites = false;
       this.showPlugins = true;
+      this.showApp = false;
     },
     getImgUrl(pic) {
       return "img/sites/" + pic;
     },
     displayApp(id){
         this.id = id;
+        this.showAll = false;
+      this.showWebsites = true;
+      this.showPlugins = false;
+      this.showApp = true;
 
     }
   }
