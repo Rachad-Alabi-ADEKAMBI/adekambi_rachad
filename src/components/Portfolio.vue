@@ -19,7 +19,7 @@
       </div>
 
       <div class="portfolio__items" v-if="showAll">
-        <div class="item" v-for="detail in all" :key="detail.id" @click="displayApp(id)">
+        <div class="item" v-for="detail in all" :key="detail.id" @click="displayApp(detail.id)">
           <img :src="getImgUrl(detail.pic1)" alt="">
         </div>
       </div>
