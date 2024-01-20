@@ -39,7 +39,7 @@
       <div class="portfolio__items" v-if="showApp">
           <div class="item" v-for="detail in details" :key="detail.id">
               <div class="screens">{{ detail.id }}</div>
-              <div class="text">{{ detail.id }}</div>
+              <div class="text"> </div>
           </div>
       </div>
     </div>
