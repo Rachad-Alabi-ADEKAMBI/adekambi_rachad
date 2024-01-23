@@ -6,7 +6,9 @@
              </p>
            </div>
             <div class="message__btn">
-             <i class="fas fa-download"></i>
+             <a href="">
+              <i class="fas fa-download"></i>
+             </a>
            </div>
          </div>
  </template>
