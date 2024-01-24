@@ -6,7 +6,7 @@
              </p>
            </div>
             <div class="message__btn">
-             <a href="">
+             <a href="mailto:adekambirachad@gmail.com">
               <i class="fas fa-download"></i>
              </a>
            </div>
