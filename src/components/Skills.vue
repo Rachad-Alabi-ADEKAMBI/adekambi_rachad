@@ -34,7 +34,7 @@
             <div class="skill">
                 <img src="/public/img/logos/langages/php.png" alt="">
                 <img src="/public/img/logos/langages/mysql.png" alt="">
-                <img src="/public/img/logos/langages/htmlr.png" alt="">
+                <img src="/public/img/logos/langages/html.png" alt="">
 
                 <img src="/public/img/logos/langages/htmlr.png" alt="">
               </div>
