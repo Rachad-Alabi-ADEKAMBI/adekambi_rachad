@@ -36,7 +36,8 @@
                 <img src="/public/img/logos/langages/mysql.png" alt="">
                 <img src="/public/img/logos/langages/html.png" alt="">
 
-                <img src="/public/img/logos/langages/htmlr.png" alt="">
+                <img src="/public/img/logos/langages/laravel.png" alt="">
+                 <img src="/public/img/logos/langages/vuejs.png" alt="">
               </div>
           </div>
        </div>
