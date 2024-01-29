@@ -427,6 +427,8 @@ li{
 
                     .skill{
                         @include flex();
+                        margin: 20px auto;
+                        justify-content: baseline;
 
                         img{
                             width: 70px;

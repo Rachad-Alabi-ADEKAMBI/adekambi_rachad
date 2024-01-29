@@ -28,11 +28,10 @@
           </p>
 
           <div class="skills__list">
-              <span>
-                Languages
-              </span>
+
             <div class="skill">
-                <img src="/public/img/logos/frameworks/laravel.png" alt="">
+                <img src="img/logos/frameworks/laravel.png" alt="">
+                 <img src="img/logos/frameworks/vue.png" alt="">
              </div>
           </div>
        </div>
