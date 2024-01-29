@@ -30,16 +30,18 @@
           <div class="skills__list">
 
             <div class="skill">
-              <img src="img/logos/languages/php.png" alt="">
-              <img src="img/logos/languages/mysql.png" alt="">
-              <img src="img/logos/languages/python.png" alt="">
+              <img src="img/logos/langages/php.png" alt="">
+              <img src="img/logos/langages/mysql.png" alt="">
+              <img src="img/logos/langages/python.png" alt="">
 
-              <img src="img/logos/languages/js_logo.png" alt="">
+              <img src="img/logos/langages/js_logo.png" alt="">
 
                 <img src="img/logos/frameworks/laravel.png" alt="">
                  <img src="img/logos/frameworks/vue.png" alt="">
                  <img src="img/logos/frameworks/flask.png" alt="">
                  <img src="img/logos/frameworks/bootstrap.png" alt="">
+
+                 <img src="img/logos/tools/git.png" alt="">
 
              </div>
           </div>
