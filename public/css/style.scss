@@ -422,6 +422,22 @@ li{
 
             .skills{
                 display: block;
+
+                &__list{
+
+                    .skill{
+                        @include flex();
+
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            margin: auto 15px;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+
+
             }
 
             .message{
