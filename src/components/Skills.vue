@@ -42,7 +42,7 @@
                  <img src="img/logos/frameworks/bootstrap.png" alt="">
 
                  <img src="img/logos/tools/git.png" alt="">
-                 <img src="img/logos/tools/git.png" alt="">
+                 <img src="img/logos/os/linux.png" alt="">
 
              </div>
           </div>
