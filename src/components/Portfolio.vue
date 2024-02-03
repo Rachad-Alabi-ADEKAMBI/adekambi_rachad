@@ -5,8 +5,10 @@
         <p>Available for freelance work</p>
       </div>
       <div class="message__btn">
-        <i class="fas fa-download"></i>
-      </div>
+              <a href='mailto:adekambirachad@gmail.com'>
+                <i class="fas fa-download"></i>
+              </a>
+          </div>
     </div>
 
     <h1>My portfolio</h1>
@@ -45,11 +47,15 @@
 
             <img :src="getImgUrl(all[selectedItemId].pic1)" alt=""
               v-if="showImage1">
+              <img :src="getImgUrl(all[selectedItemId].pic2)" alt=""
+              v-if="showImage2">
+              <img :src="getImgUrl(all[selectedItemId].pic3)" alt=""
+              v-if="showImage3">
 
             <div class="project__btns">
-              <span @click=displayImg(1) >* </span>
-              <span @click=displayImg(2) >* </span>
-              <span @click=displayImg(3) >* </span>
+              <span @click=displayImage1() >* </span>
+              <span @click=displayImage2() >* </span>
+              <span @click=displayImage3() >* </span>
             </div>
 
             <h4>
@@ -89,10 +95,10 @@ export default {
       showImage2: false,
       showImage3: false,
       all: [
-        { id: 0, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
-        { id: 1, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
-        { id: 2, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
-        { id: 3, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 0, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: 'nbroker/nb2.jpg', pic3: 'nbroker/nb3.jpg' },
+        { id: 1, name: 'Parc Auto', pic1: 'parc/parc1.jpg', pic2: 'parc/parc2.jpg', pic3: 'parc/parc3.jpg' },
+        { id: 2, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: 'rapid-note/rn2.jpg', pic3: 'rapid-note/rn3.jpg', },
+        { id: 3, name: 'Immobilier Benin', pic1: 'immo/im1.jpg', pic2: 'immo/im2.jpg', pic3: 'immo/im3.jpg', },
       ],
       websites: [
         { id: 1, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
@@ -142,15 +148,25 @@ export default {
       this.showWebsites = false;
       this.showPlugins = false;
       this.showApp = true;
+      this.showImage1 = true;
+      this.showImage2 = false;
+        this.showImage3 = false;
       },
-      displayImage(id) {
-  this.showImage[id] = true;
-  for (let otherId in this.showImage) {
-    if (otherId !== id) {
-      this.showImage[otherId] = false;
-    }
-  }
-}
+      displayImage1() {
+        this.showImage1 = true;
+        this.showImage2 = false;
+        this.showImage3 = false;
+      },
+      displayImage2() {
+        this.showImage1 = false;
+        this.showImage2 = true;
+        this.showImage3 =false;
+      },
+      displayImage3() {
+        this.showImage1 = false;
+        this.showImage2 = false;
+        this.showImage3 = true;
+      }
 
   }
 };

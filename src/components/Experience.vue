@@ -7,9 +7,11 @@
              Available for freelance work
            </p>
          </div>
-          <div class="message__btn">
-           <i class="fas fa-download"></i>
-         </div>
+         <div class="message__btn">
+              <a href='mailto:adekambirachad@gmail.com'>
+                <i class="fas fa-download"></i>
+              </a>
+          </div>
        </div>
 
        <h1>
@@ -40,7 +42,7 @@
                   Customization of wordpress dashboard at the request of the customer;
                 </p>
             </div>
-       </div> 
+       </div>
 
 
        <div class="experience">

@@ -406,7 +406,7 @@ li {
   font-size: 2em;
   margin: 5px auto;
 }
-.main__content .content .portfolio__items .project p span {
+.main__content .content .portfolio__items .project p span a {
   color: #FFA07F;
 }
 .main__content .content .portfolio__items .project p span:hover {
@@ -459,10 +459,14 @@ li {
   height: 100%;
   display: table;
 }
-.main__content .content .message__btn i {
-  color: white;
+.main__content .content .message__btn a {
   display: table-cell;
   vertical-align: middle;
+  margin: auto;
+  text-align: center;
+}
+.main__content .content .message__btn a i {
+  color: white;
 }
 
 .profile {

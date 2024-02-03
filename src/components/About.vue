@@ -1,10 +1,10 @@
 <template>
-   <div class="infos about">
+   <div class="infos">
 
         <div class="message">
           <div class="message__text">
             <p>
-              Available for freelance work
+              Available for freelance workk
             </p>
           </div>
            <div class="message__btn">

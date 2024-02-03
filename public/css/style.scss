@@ -454,7 +454,9 @@ li{
 
                         p{
                             span{
-                                color: $pink;
+                                a{
+                                    color: $pink;
+                                }
                             }
 
                             span:hover{
@@ -515,10 +517,16 @@ li{
                     margin: auto 0 auto 10px;
                     height: 100%;
                     display: table;
-                    i{
-                        color: $white;
+
+                    a{
                         display: table-cell;
                         vertical-align: middle;
+                        margin: auto;
+                        text-align: center;
+
+                        i{
+                            color: $white;
+                        }
                     }
                 }
             }
