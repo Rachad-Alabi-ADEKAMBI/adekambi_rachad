@@ -417,6 +417,52 @@ li{
                             margin: auto;
                         }
                     }
+
+                    .project{
+                        display: block;
+
+                        h3{
+                            color: $primary;
+                            font-size: 2.5em;
+                        }
+
+                        img{
+                            width: 95%;
+                            border-radius: 10px;
+                            margin: auto;
+                            height: 450px;
+                        }
+
+                        .project__btns{
+                            @include flex();
+                            margin: 0 auto 5px auto;
+                            width: 100px;
+                            justify-content: start;
+
+                            span{
+                                cursor: pointer;
+                                color: $primary;
+                                font-size: 2.5em;
+                            }
+                        }
+
+                        h4{
+                            color: $primary;
+                            font-size: 2em;
+                            margin: 5px auto;
+                        }
+
+                        p{
+                            span{
+                                color: $pink;
+                            }
+
+                            span:hover{
+                                color: $primary;
+                            }
+                        }
+
+                    }
                 }
             }
 

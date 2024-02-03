@@ -38,8 +38,34 @@
       </div>
 
       <div class="portfolio__items" v-if="showApp">
-          <div class="item" v-if="selectedItemId >= 0 && selectedItemId < all.length">
-            app name: {{ all[selectedItemId].name }}
+          <div class="project" v-if="selectedItemId >= 0 && selectedItemId < all.length">
+            <h3>
+                {{ all[selectedItemId].name }}
+            </h3>
+
+            <img :src="getImgUrl(all[selectedItemId].pic1)" alt=""
+              v-if="showImage1">
+
+            <div class="project__btns">
+              <span @click=displayImg(1) >* </span>
+              <span @click=displayImg(2) >* </span>
+              <span @click=displayImg(3) >* </span>
+            </div>
+
+            <h4>
+              Description
+            </h4>
+
+            <p>
+              Site e-commerce sale of jewelry and accessories for men women
+              and children in Benin. I realized this site with wordpress and
+              I also realize plugin customize for the management of
+              the delivery. <br>
+              Link: <span> <a href="">https://trendsconceptstore.com/</a> </span>
+
+            </p>
+
+
           </div>
       </div>
     </div>
@@ -59,6 +85,9 @@ export default {
       showPlugins: false,
       showApp: false,
       selectedItemId: 0,
+      showImage1: true,
+      showImage2: false,
+      showImage3: false,
       all: [
         { id: 0, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
         { id: 1, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
@@ -113,8 +142,16 @@ export default {
       this.showWebsites = false;
       this.showPlugins = false;
       this.showApp = true;
-
+      },
+      displayImage(id) {
+  this.showImage[id] = true;
+  for (let otherId in this.showImage) {
+    if (otherId !== id) {
+      this.showImage[otherId] = false;
     }
+  }
+}
+
   }
 };
 </script>
