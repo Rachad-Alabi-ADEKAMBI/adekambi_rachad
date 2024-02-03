@@ -483,7 +483,9 @@ li {
   text-align: center;
 }
 .profile__details h2 {
-  text-decoration: underline;
+  color: white;
+  font-size: 2em;
+  line-height: 1em;
 }
 .profile__details__list {
   width: 90%;

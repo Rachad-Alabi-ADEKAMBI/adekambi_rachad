@@ -539,8 +539,11 @@ li{
         text-align: center;
 
         h2{
-            text-decoration: underline;
+            color: $white;
+            font-size: 2em;
+            line-height: 1em;
         }
+
         &__list{
             width: 90%;
             margin: 15px auto;

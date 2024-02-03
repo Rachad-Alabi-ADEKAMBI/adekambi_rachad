@@ -17,8 +17,9 @@
         </div>
 
         <div class="profile__details">
-            <h2 class="">
-                General informations
+            <h2 class="title">
+                General <br>
+                informations
             </h2>
 
             <div class="profile__details__list">
