@@ -19,8 +19,9 @@
       </div>
 
       <div class="portfolio__items" v-if="showAll">
-        <div class="item" v-for="detail in all" :key="detail.id" @click="displayApp(detail.id)">
-          <img :src="getImgUrl(detail.pic1)" alt="">
+        <div class="item" v-for="detail in all" :key="detail.id">
+          <img :src="getImgUrl(detail.pic1)" alt=""
+          @click="displayApp(detail.id)">
         </div>
       </div>
 
@@ -37,9 +38,8 @@
       </div>
 
       <div class="portfolio__items" v-if="showApp">
-          <div class="item" v-for="detail in details" :key="detail.id">
-              <div class="screens">{{ detail.id }}</div>
-              <div class="text"> </div>
+          <div class="item" v-if="selectedItemId >= 0 && selectedItemId < all.length">
+            app name: {{ all[selectedItemId].name }}
           </div>
       </div>
     </div>
@@ -58,11 +58,12 @@ export default {
       showWebsites: false,
       showPlugins: false,
       showApp: false,
+      selectedItemId: 0,
       all: [
-        { id: 1, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
-        { id: 2, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
-        { id: 3, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
-        { id: 4, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 0, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 1, name: 'Parc Auto', pic1: 'parc/pa1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 2, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
+        { id: 3, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
       ],
       websites: [
         { id: 1, name: 'Nbroker', pic1: 'nbroker/nb1.jpg', pic2: '/sites/nbroker/nb2.jpg' },
@@ -107,9 +108,9 @@ export default {
       return "img/sites/" + pic;
     },
     displayApp(id){
-        this.id = id;
+        this.selectedItemId = id;
         this.showAll = false;
-      this.showWebsites = true;
+      this.showWebsites = false;
       this.showPlugins = false;
       this.showApp = true;
 

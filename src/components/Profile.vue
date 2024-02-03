@@ -19,7 +19,7 @@
         <div class="profile__details">
             <h2 class="title">
                 General <br>
-                informations
+                information
             </h2>
 
             <div class="profile__details__list">
