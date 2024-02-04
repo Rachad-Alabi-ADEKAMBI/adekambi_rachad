@@ -7,11 +7,9 @@
               Available for freelance workk
             </p>
           </div>
-           <div class="message__btn">
-              <a href='mailto:adekambirachad@gmail.com'>
-                <i class="fas fa-download"></i>
-              </a>
-          </div>
+
+
+
         </div>
         <span>
           Full-stack Developer
