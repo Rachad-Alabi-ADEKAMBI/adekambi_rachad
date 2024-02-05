@@ -9,7 +9,7 @@
           </div>
 
 
-
+S
         </div>
         <span>
           Full-stack Developer
@@ -33,7 +33,7 @@
              satisfaction with my work is my top priority.
              In my free time, I enjoy playing video games,
               participating in sports, and keeping up
-               with the latest in technology."
+               with the latest in "
         </p>
    </div>
 </template>
