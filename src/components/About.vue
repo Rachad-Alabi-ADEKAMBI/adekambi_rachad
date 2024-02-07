@@ -33,7 +33,7 @@ S
              satisfaction with my work is my top priority.
              In my free time, I enjoy playing video games,
               participating in sports, and keeping up
-               with the latest in "
+               with in "
         </p>
    </div>
 </template>
