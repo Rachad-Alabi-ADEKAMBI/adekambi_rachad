@@ -32,8 +32,7 @@ S
              high-quality work on time. Ensuring your
              satisfaction with my work is my top priority.
              In my free time, I enjoy playing video games,
-              participating in sport.
-               with in "
+              participating "
         </p>
    </div>
 </template>
