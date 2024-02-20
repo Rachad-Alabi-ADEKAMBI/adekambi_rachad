@@ -28,23 +28,18 @@
       </p>
 
       <div class="skills__list">
-        <div class="skill">
-          <img src="img/logos/langages/js_logo.png" alt="">
-
-          <img src="img/logos/langages/js_logo.png" alt="">
-
-
-        </div> <br>
 
         <h3>
           Langages
         </h3>
 
         <div class="skill">
+          <img src="img/logos/langages/html.png" alt="">
+          <img src="img/logos/langages/css.png" alt="">
+          <img src="img/logos/langages/js_logo.png" alt="">
           <img src="img/logos/langages/php.png" alt="">
           <img src="img/logos/langages/mysql.png" alt="">
           <img src="img/logos/langages/python.png" alt="">
-          <img src="img/logos/langages/js_logo.png" alt="">
         </div> <br>
 
         <h3>
@@ -56,8 +51,10 @@
           <img src="img/logos/frameworks/vue.png" alt="">
           <img src="img/logos/frameworks/flask.png" alt="">
           <img src="img/logos/frameworks/bootstrap.png" alt="">
+          <img src="img/logos/frameworks/tailwindcss.png" alt="">
+
         </div>
-      </div> <br>
+       <br>
 
       <h3>
         Tools
@@ -65,8 +62,16 @@
 
       <div class="skill">
         <img src="img/logos/tools/git.png" alt="">
-        <img src="img/logos/tools/git.png" alt="">
-      </div>  <br>
+        <img src="img/logos/tools/vscode.png" alt="">
+        <img src="img/logos/tools/wordpress.png" alt="">
+
+        <img src="img/logos/tools/figma.png" alt="">
+        <img src="img/logos/tools/scss.png" alt="">
+        <img src="img/logos/tools/aws.png" alt="">
+        <img src="img/logos/tools/docker.png" alt="">
+        <img src="img/logos/tools/ps.png" alt="">
+
+             </div>  <br>
 
       <h3>
         Operating systems
@@ -74,9 +79,9 @@
 
       <div class="skill">
         <img src="img/logos/os/linux.png" alt="">
-        <img src="" alt="">
+        <img src="img/logos/os/windows.png" alt="">
       </div>
-
+    </div>
     </div>
   </div>
 </template>

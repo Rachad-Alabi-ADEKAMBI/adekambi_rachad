@@ -420,13 +420,14 @@ li {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 20px auto;
-  justify-content: baseline;
+  margin: 20px auto auto 0;
+  justify-content: start;
+  width: 70%;
 }
 .main__content .content .skills__list .skill img {
-  width: 70px;
-  height: 70px;
-  margin: auto 15px;
+  width: 80px;
+  height: auto;
+  margin: auto 30px 20px 0;
   border-radius: 5px;
 }
 .main__content .content .message {
