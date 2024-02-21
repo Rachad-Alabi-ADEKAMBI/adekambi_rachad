@@ -61,8 +61,7 @@
       </h3>
 
       <div class="skill">
-        <img src="img/logos/tools/git.png" alt="">
-        <img src="img/logos/tools/vscode.png" alt="">
+         <img src="img/logos/tools/vscode.png" alt="">
         <img src="img/logos/tools/wordpress.png" alt="">
 
         <img src="img/logos/tools/figma.png" alt="">
