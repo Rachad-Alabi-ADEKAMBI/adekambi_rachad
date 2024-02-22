@@ -1,16 +1,18 @@
 <template>
    <div class="infos">
 
-        <div class="message">
-          <div class="message__text">
-            <p>
-              Available for freelance workk
-            </p>
-          </div>
-
-
-S
-        </div>
+    <div class="message">
+      <div class="message__text">
+        <p>
+          Available for freelance work
+        </p>
+      </div>
+      <div class="message__btn">
+        <a href='mailto:adekambirachad@gmail.com'>
+          <i class="fas fa-download"></i>
+        </a>
+      </div>
+    </div>
         <span>
           Full-stack Developer
         </span>
