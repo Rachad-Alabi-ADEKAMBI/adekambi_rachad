@@ -26,15 +26,12 @@
         </strong>
 
         <p>
-          "I'm a seasoned back-end developer with more
-           than 4 years of experience. I also have
-            knowledge in front-end development and
-             various IT technologies. I'm creative,
-             dynamic, and committed to delivering
-             high-quality work on time. Ensuring your
-             satisfaction with my work is my top priority.
-             In my free time, I enjoy playing video games,
-              participating "
+          i am m Rachad, your friendly full-stack developer with 4 years of experience.
+           I smoothly navigate the website landscape using tools like Laravel, Vue.js, Flask, and WordPress.
+            While I'm proficient in both backend and frontend work, I lean towards backend development as my
+            specialty. Crafting innovative web solutions and tackling complex challenges is where I excel.
+             My freelancing journey has given me the opportunity to assist numerous clients, leaving a trail
+              of satisfied customers.
         </p>
    </div>
 </template>

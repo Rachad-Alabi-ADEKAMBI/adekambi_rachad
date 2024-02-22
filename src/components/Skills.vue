@@ -40,7 +40,7 @@
           <img src="img/logos/langages/php.png" alt="">
           <img src="img/logos/langages/mysql.png" alt="">
           <img src="img/logos/langages/python.png" alt="">
-        </div> <br>
+        </div>
 
         <h3>
           Frameworks & Libraries
@@ -51,26 +51,26 @@
           <img src="img/logos/frameworks/vue.png" alt="">
           <img src="img/logos/frameworks/flask.png" alt="">
           <img src="img/logos/frameworks/bootstrap.png" alt="">
-          <img src="img/logos/frameworks/tailwindcss.png" alt="">
+          <img src="img/logos/frameworks/tailwindcss.png" alt="" style="width: 170px;">
 
         </div>
-       <br>
 
       <h3>
         Tools
       </h3>
 
       <div class="skill">
-         <img src="img/logos/tools/vscode.png" alt="">
+
         <img src="img/logos/tools/wordpress.png" alt="">
 
-        <img src="img/logos/tools/figma.png" alt="">
         <img src="img/logos/tools/scss.png" alt="">
         <img src="img/logos/tools/aws.png" alt="">
+        <img src="img/logos/tools/git.png" alt="">
         <img src="img/logos/tools/docker.png" alt="">
-        <img src="img/logos/tools/ps.png" alt="">
+        <img src="img/logos/tools/ps.png" alt="" style="width: 170px;">
+        <img src="img/logos/tools/figma.png" alt="" style="width: 130px;">
 
-             </div>  <br>
+      </div>  <br>
 
       <h3>
         Operating systems
@@ -78,9 +78,11 @@
 
       <div class="skill">
         <img src="img/logos/os/linux.png" alt="">
-        <img src="img/logos/os/windows.png" alt="">
+        <img src="img/logos/os/windows.svg" alt=""  style="width: 150px;">
       </div>
     </div>
+
+
     </div>
   </div>
 </template>
@@ -92,4 +94,9 @@ export default {
     msg: String
   }
 }
+
 </script>
+
+
+
+

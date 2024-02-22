@@ -28,8 +28,10 @@
           <div class="education__details">
               <img src="img/open_classrooms.jpg" alt="openclassrooms student">
               <p>
+
                 <span>Open classrooms</span> <br>
-                <strong>B.Sc. in Computer System and Software </strong>
+                <!-- <strong>B.Sc. in Computer System and Software </strong>
+              -->
               </p>
           </div>
        </div>
@@ -62,9 +64,9 @@
         </div>
       </div>
 
-      <h2 class="title">
+      <h1 class="">
         My certifications
-      </h2>
+      </h1>
 
       <p>
         <span class="red">*</span>

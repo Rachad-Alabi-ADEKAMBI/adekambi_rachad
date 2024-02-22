@@ -33,13 +33,7 @@
                 </strong>
 
                 <p>
-                  I provide web solutions and meet the needs of customers via technologies like wordpress, prestashop, nodejs. I also provided other applications like:
-                  a real time dashboard for statistics analysis and back office management of the android application teepzy (VueJs, wordpress);
-                  Development of the plugin that allows to automate hosting services and domain name setup (IaaS) (wordpress, shell);
-                  Realization of wordpress website;
-                  Customization of theme at the request of the customer;
-                  Creation and Integration of wordpress theme;
-                  Customization of wordpress dashboard at the request of the customer;
+                  As a freelance full-stack developer, I take pride in successfully delivering over 60 orders with a 100% satisfaction rate on ComeUp. I specialize in crafting web solutions using technologies like Laravel, Vue.js, Flask, and WordPress, ensuring that each project meets the unique needs of my clients. My extensive experience includes developing custom management apps (Vue.js, Laravel), creating marketplaces for cars and houses (Vue.js, Laravel), and designing custom plugins for websites using Vue.js and native PHP.
                 </p>
             </div>
        </div>
@@ -60,7 +54,7 @@
                 </strong>
 
                 <p>
-                  I provide web solutions and meet the needs of customers via technologies like wordpress, prestashop, nodejs
+                  As a junior developer at Orouboros, I play a key role in our collaborative team, actively contributing to the development of diverse web solutions using technologies such as Laravel, Vue.js, and WordPress. My responsibilities span from creating custom management apps to addressing common bugs in active web applications, in addition to crafting custom plugins for websites using Vue.js and native PHP.
                 </p>
             </div>
        </div>
