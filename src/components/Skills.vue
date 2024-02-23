@@ -51,7 +51,7 @@
           <img src="img/logos/frameworks/vue.png" alt="">
           <img src="img/logos/frameworks/flask.png" alt="">
           <img src="img/logos/frameworks/bootstrap.png" alt="">
-          <img src="img/logos/frameworks/tailwindcss.png" alt="" style="width: 170px;">
+          <img src="img/logos/frameworks/tailwindcss.png" alt="" style="width: 120px;">
 
         </div>
 
@@ -67,8 +67,8 @@
         <img src="img/logos/tools/aws.png" alt="">
         <img src="img/logos/tools/git.png" alt="">
         <img src="img/logos/tools/docker.png" alt="">
-        <img src="img/logos/tools/ps.png" alt="" style="width: 170px;">
-        <img src="img/logos/tools/figma.png" alt="" style="width: 130px;">
+        <img src="img/logos/tools/ps.png" alt="" style="width: 110px;">
+        <img src="img/logos/tools/figma.png" alt="" style="width: 120px;">
 
       </div>  <br>
 
