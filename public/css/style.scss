@@ -224,8 +224,6 @@ li{
                 text-align: left;
                 display: block;
 
-
-
                 .message:hover{
                     background-color: $primary;
                 }
@@ -561,7 +559,7 @@ li{
             height: 350px;
         }
 
-        &__message{
+        .message{
             position: absolute;
             bottom: 10px;
             right: 10px;
@@ -792,7 +790,6 @@ li{
 /*responsive for 350px*/
 @media screen and (min-width: 330px) and (max-width: 549px){
 
-
     .header{
         justify-content: space-between;
         margin-bottom: 15px;
@@ -809,8 +806,13 @@ li{
         }
     }
 
+    .app{
+        background-color: purple;
+    }
+
     .main{
         flex-direction: column;
+        width: 100%;
 
         &__card{
             width: 100%;
@@ -818,6 +820,27 @@ li{
 
         &__content{
             width: 100%;
+
+            .content{
+                .message{
+                    display: none;
+                }
+
+                .infos{
+                    padding-left: 5px;
+                    padding-right: 5px;
+
+                    h1{
+                        line-height: 1.1em;
+                    }
+
+                    p{
+                        width: 100%;
+                        margin: auto;
+                        text-align: left;
+                    }
+                }
+            }
         }
     }
 
@@ -848,4 +871,6 @@ li{
             flex: 1;
         }
     }
+
+
 }

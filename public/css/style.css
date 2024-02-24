@@ -495,13 +495,13 @@ li {
   width: 100%;
   height: 350px;
 }
-.profile__pic__message {
+.profile__pic .message {
   position: absolute;
   bottom: 10px;
   right: 10px;
   display: none;
 }
-.profile__pic__message .message {
+.profile__pic .message .message {
   margin: auto 0px auto auto;
   width: -moz-max-content;
   width: max-content;
@@ -516,14 +516,14 @@ li {
   padding-left: 5px;
   cursor: pointer;
 }
-.profile__pic__message .message__text {
+.profile__pic .message .message__text {
   display: table;
 }
-.profile__pic__message .message__text p {
+.profile__pic .message .message__text p {
   display: table-cell;
   vertical-align: middle;
 }
-.profile__pic__message .message__btn {
+.profile__pic .message .message__btn {
   background-color: #100F3A;
   width: 45px;
   text-align: center;
@@ -531,7 +531,7 @@ li {
   height: 100%;
   display: table;
 }
-.profile__pic__message .message__btn i {
+.profile__pic .message .message__btn i {
   color: white;
   display: table-cell;
   vertical-align: middle;
@@ -697,14 +697,33 @@ li {
   .header__responsive {
     display: none;
   }
+  .app {
+    background-color: purple;
+  }
   .main {
     flex-direction: column;
+    width: 100%;
   }
   .main__card {
     width: 100%;
   }
   .main__content {
     width: 100%;
+  }
+  .main__content .content .message {
+    display: none;
+  }
+  .main__content .content .infos {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .main__content .content .infos h1 {
+    line-height: 1.1em;
+  }
+  .main__content .content .infos p {
+    width: 100%;
+    margin: auto;
+    text-align: left;
   }
   .profile {
     width: 330px;
