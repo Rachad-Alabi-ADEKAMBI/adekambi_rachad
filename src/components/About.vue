@@ -39,8 +39,16 @@
 <script>
 export default {
   name: 'About',
-  props: {
-    msg: String
-  }
-}
+  data() {
+    return {
+      currentRoute: '',
+    };
+  },
+  watch: {
+    $route(to) {
+      this.currentRoute = to.path;
+    },
+
+  },
+};
 </script>

@@ -14,37 +14,35 @@
       </div>
 
       <div class="header__list">
-          <div class="header__list__item" >
-              <router-link to="/about" >
+        <div class="header__list__item" :class="{ 'active-link': currentRoute === '/about' }">
+              <router-link to="/about">
                 <p>About</p>
               </router-link>
-          </div>
+            </div>
 
-          <div class="header__list__item">
-              <router-link to="/skills" >
+            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/skills' }">
+              <router-link to="/skills">
                 <p>Skills</p>
               </router-link>
-          </div>
+            </div>
 
-          <div class="header__list__item">
-              <router-link to="/experience" >
+            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/experience' }">
+              <router-link to="/experience">
                 <p>Experience</p>
               </router-link>
-          </div>
+            </div>
 
-          <div class="header__list__item">
-              <router-link to="/education" >
+            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/Education' }">
+              <router-link to="/education">
                 <p>Education</p>
               </router-link>
-          </div>
+            </div>
 
-          <div class="header__list__item">
-              <router-link to="/portfolio" >
-                <p>
-                  Portfolio
-                </p>
+            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/portfolio' }">
+              <router-link to="/portfolio">
+                <p>Portfolio</p>
               </router-link>
-          </div>
+            </div>
       </div>
 
       <div class="header__icon" id="display"
@@ -93,23 +91,20 @@
 
 </template>
 
-<style>
+<script>
+export default {
+  data() {
+    return {
+      currentRoute: '',
+    };
+  },
+  watch: {
+    $route(to) {
+      this.currentRoute = to.path;
+    },
 
-#app {
+  },
+};
+</script>
 
-}
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-  text-decoration: none;
-}
-
-p{
-  text-decoration: none;
-}
-</style>

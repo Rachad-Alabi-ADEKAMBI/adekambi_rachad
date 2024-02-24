@@ -1,3 +1,12 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: auto;
+}
+
 html, body {
   box-sizing: border-box;
   padding: 0;
@@ -7,6 +16,10 @@ html, body {
   font-family: "Montserrat", "arial";
   font-size: 1em;
   list-style: none;
+}
+
+.active-link {
+  background-color: #8583E1;
 }
 
 h1 {
@@ -21,6 +34,16 @@ h2, .title {
   color: #100F3A;
 }
 
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -29,15 +52,6 @@ li {
   color: red;
   font-weight: bold;
   font-size: large;
-}
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin: auto;
 }
 
 .header {
