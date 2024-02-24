@@ -17,7 +17,7 @@
       <div class="portfolio__menu">
         <span @click="displayAll()" :id="elementId" v-bind:style="getStyles('all')">All</span>
         <span @click="displayWebsites()" :id="elementId" v-bind:style="getStyles('websites')">Websites</span>
-        <span @click="displayPlugins()" :id="elementId" v-bind:style="getStyles('plugins')">API projects and WordPress plugins</span>
+        <span @click="displayPlugins()" :id="elementId" v-bind:style="getStyles('plugins')">API & plugins</span>
       </div>
 
       <div class="portfolio__items" v-if="showAll">

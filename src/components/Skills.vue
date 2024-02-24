@@ -37,7 +37,7 @@
           <img src="img/logos/langages/html.png" alt="">
           <img src="img/logos/langages/css.png" alt="">
           <img src="img/logos/langages/js_logo.png" alt="">
-          <img src="img/logos/langages/php.png" alt="">
+          <img src="img/logos/langages/logo-php.jpeg" alt="">
           <img src="img/logos/langages/mysql.png" alt="">
           <img src="img/logos/langages/python.png" alt="">
         </div>
@@ -67,8 +67,8 @@
         <img src="img/logos/tools/aws.png" alt="">
         <img src="img/logos/tools/git.png" alt="">
         <img src="img/logos/tools/docker.png" alt="">
-        <img src="img/logos/tools/ps.png" alt="" style="width: 110px;">
-        <img src="img/logos/tools/figma.png" alt="" style="width: 120px;">
+        <img src="img/logos/tools/png.png" alt="" >
+        <img src="img/logos/tools/figmaa.png" alt="">
 
       </div>  <br>
 
@@ -78,7 +78,7 @@
 
       <div class="skill">
         <img src="img/logos/os/linux.png" alt="">
-        <img src="img/logos/os/windows.svg" alt=""  style="width: 150px;">
+        <img src="img/logos/os/windowws.png" alt="">
       </div>
     </div>
 

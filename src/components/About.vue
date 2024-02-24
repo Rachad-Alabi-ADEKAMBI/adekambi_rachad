@@ -26,7 +26,7 @@
         </strong>
 
         <p>
-          i am m Rachad, your friendly full-stack developer with 4 years of experience.
+          My name is Rachad and i am your friendly developer with 4 years of experience.
            I smoothly navigate the website landscape using tools like Laravel, Vue.js, Flask, and WordPress.
             While I'm proficient in both backend and frontend work, I lean towards backend development as my
             specialty. Crafting innovative web solutions and tackling complex challenges is where I excel.
