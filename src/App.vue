@@ -51,39 +51,34 @@
       </div>
 
       <div class="header__responsive" id="menu">
-            <div class="header__responsive__item">
+            <div class="header__responsive__item" @click='closeMenu()'>
                 <router-link to="/about" >
                   <p>About</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item">
+            <div class="header__responsive__item"  @click='closeMenu()'>
                 <router-link to="/skills" >
                   <p>Skills</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item">
+            <div class="header__responsive__item"  @click='closeMenu()'>
                 <router-link to="/experience" >
                   <p>Experience</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item">
+            <div class="header__responsive__item"  @click='closeMenu()'>
                 <router-link to="/education" >
                   <p>Education</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item">
+            <div class="header__responsive__item"  @click='closeMenu()'>
                 <router-link to="/portfolio" >
-                  <p>Porfolio</p>
+                  <p>Portfolio</p>
                 </router-link>
-            </div>
-
-            <div class="header__responsive__item down" id="closeMenu"
-                  onclick="closeMenu()">
-                  <p>Menu</p>
             </div>
       </div>
   </nav>
@@ -104,7 +99,7 @@ export default {
     },
   },
   mounted(){
-    this.closeMenu();
+   // this.closeMenu();
   },
   methods: {
     displayMenu(){
@@ -115,9 +110,7 @@ export default {
     },
     closeMenu(){
       let menu = document.getElementById('menu');
-
       menu.style.display = 'none';
-      alert('ok');
     },
   }
 };

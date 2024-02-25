@@ -155,12 +155,14 @@ li{
     }
 
     &__responsive{
-        width: 200px;
+        width: 250px;
        z-index: 9999;
        background-color: $grey;
        height: 350px;
        position: relative;
        display: none;
+       right: 0;
+       margin-right: 0;
 
        &__item{
             margin: 20px auto;
@@ -177,12 +179,6 @@ li{
             p{
                 color: $secondary;
             }
-       }
-
-       .down{
-        position: absolute;
-        bottom: 0;
-        right: 10px;
        }
     }
 
@@ -802,6 +798,7 @@ li{
 
         &__responsive{
             display: none;
+            margin: auto 0 auto auto;
         }
     }
 

@@ -131,12 +131,14 @@ li {
   color: #8583E1;
 }
 .header__responsive {
-  width: 200px;
+  width: 250px;
   z-index: 9999;
   background-color: #f1f3f5;
   height: 350px;
   position: relative;
   display: none;
+  right: 0;
+  margin-right: 0;
 }
 .header__responsive__item {
   margin: 20px auto;
@@ -149,11 +151,6 @@ li {
 }
 .header__responsive__item:hover p {
   color: #8583E1;
-}
-.header__responsive .down {
-  position: absolute;
-  bottom: 0;
-  right: 10px;
 }
 
 .main {
@@ -698,6 +695,7 @@ li {
   }
   .header__responsive {
     display: none;
+    margin: auto 0 auto auto;
   }
   .app {
     background-color: purple;
