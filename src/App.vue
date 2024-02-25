@@ -46,7 +46,7 @@
       </div>
 
       <div class="header__icon" id="display"
-         onclick="displayMenu()" >
+         @click="displayMenu()" >
           <span>MENU</span>
       </div>
 
@@ -102,8 +102,24 @@ export default {
     $route(to) {
       this.currentRoute = to.path;
     },
-
   },
+  mounted(){
+    this.closeMenu();
+  },
+  methods: {
+    displayMenu(){
+      //alert('hi');
+      let menu = document.getElementById('menu');
+
+      menu.style.display = 'block';
+    },
+    closeMenu(){
+      let menu = document.getElementById('menu');
+
+      menu.style.display = 'none';
+      alert('ok');
+    },
+  }
 };
 </script>
 

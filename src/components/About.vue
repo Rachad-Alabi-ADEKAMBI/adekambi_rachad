@@ -50,5 +50,8 @@ export default {
     },
 
   },
+  mounted(){
+    //this.closeMenu();
+  }
 };
 </script>
