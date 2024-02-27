@@ -43,7 +43,7 @@
         </div>
 
         <h3>
-          Frameworks & Libraries
+          Frameworks and Libraries
         </h3>
 
         <div class="skill">
