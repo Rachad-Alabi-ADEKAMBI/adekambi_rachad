@@ -50,11 +50,11 @@
                 </span> <br>
 
                 <strong>
-                    Oroubouros
+                    Oba Code
                 </strong>
 
                 <p>
-                  As a junior developer at Orouboros, I play a key role in our collaborative team, actively contributing to the development of diverse web solutions using technologies such as Laravel, Vue.js, and WordPress. My responsibilities span from creating custom management apps to addressing common bugs in active web applications, in addition to crafting custom plugins for websites using Vue.js and native PHP.
+                  As a junior developer at Oba Code, I play a key role in our collaborative team, actively contributing to the development of diverse web solutions using technologies such as Laravel, Vue.js, and WordPress. My responsibilities span from creating custom management apps to addressing common bugs in active web applications, in addition to crafting custom plugins for websites using Vue.js and native PHP.
                 </p>
             </div>
        </div>
