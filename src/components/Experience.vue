@@ -29,12 +29,12 @@
                 </span> <br>
 
                 <strong>
-                    ComeUp, Upwork
+                    Freelances websites such as Comeup and fiver
                 </strong>
 
                 <p>
                   As a freelance full-stack developer, I take pride in successfully delivering over 60 orders with a 100% satisfaction rate on ComeUp. I specialize in crafting web solutions using technologies like Laravel, Vue.js, Flask, and WordPress, ensuring that each project meets the unique needs of my clients. My extensive experience includes developing custom management apps (Vue.js, Laravel), creating marketplaces for cars and houses (Vue.js, Laravel), and designing custom plugins for websites using Vue.js and native PHP.
-                </p>
+                </p>ss
             </div>
        </div>
 
