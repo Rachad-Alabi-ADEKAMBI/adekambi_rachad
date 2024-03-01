@@ -59,6 +59,26 @@
             </div>
        </div>
 
+       <div class="experience">
+            <div class="experience__date">
+                12/2014 - 06/2018
+            </div>
+
+            <div class="experience__details">
+                <span>
+                    Accountant
+                </span> <br>
+
+                <strong>
+                    AHVIC
+                </strong>
+
+                <p>
+                  I was an accountant before, that time i made some ...
+                </p>
+            </div>
+       </div>
+
   </div>
 </template>
 
