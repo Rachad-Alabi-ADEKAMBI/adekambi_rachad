@@ -62,29 +62,23 @@
               <strong>Bachelor's degree</strong>
             </p>
         </div>
-      </div>
+      </div> <br>
 
       <h1 class="">
         My certifications
       </h1>
 
-      <p>
-        <span class="red">*</span>
-        Copy and paste my name into the openclassroom request field to display the certificate.
-          Click here to Copy <a href="">Rachad</a>
-      </p>
-
       <div class="certification">
           <div class="certification__date">
-            2019
+            2020
           </div>
 
           <div class="certification__details">
             <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
             <p>
-              <span>Open classroom</span> <br>
-              <strong>PHP</strong> <br>
-              <a href="">View certificate</a>
+              <span>Open classrooms</span> <br>
+              <strong>Linux</strong> <br>
+              <a href="img/certifications/linux.pdf">View certificate</a>
             </p>
           </div>
 
@@ -92,15 +86,15 @@
 
       <div class="certification">
           <div class="certification__date">
-            2019
+            2020
           </div>
 
           <div class="certification__details">
             <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
             <p>
-              <span>Open classroom</span> <br>
+              <span>Open classrooms</span> <br>
               <strong>Javascript</strong> <br>
-              <a href="">View certificate</a>
+              <a href="img/certifications/javascript.pdf">View certificate</a>
             </p>
           </div>
 
@@ -108,15 +102,15 @@
 
       <div class="certification">
           <div class="certification__date">
-            2019
+            2020
           </div>
 
           <div class="certification__details">
             <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
             <p>
-              <span>Open classroom</span> <br>
-              <strong>Git</strong> <br>
-              <a href="">View certificate</a>
+              <span>OpenClassrooms</span> <br>
+              <strong>API</strong> <br>
+              <a href="img/certifications/api.pdf">View certificate</a>
             </p>
           </div>
 
@@ -124,15 +118,31 @@
 
       <div class="certification">
           <div class="certification__date">
-            2019
+            2020
+          </div>
+
+          <div class="certification__details">
+            <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
+            <p>
+              <span>Open Classrooms</span> <br>
+              <strong>SEO</strong> <br>
+              <a href="img/seo.pdf">View certificate</a>
+            </p>
+          </div>
+
+      </div>
+
+      <div class="certification">
+          <div class="certification__date">
+            2020
           </div>
 
           <div class="certification__details">
             <img src="img/open_classrooms.jpg" alt="open classrooms certificate">
             <p>
               <span>Open classroom</span> <br>
-              <strong>Bootstrap</strong> <br>
-              <a href="">View certificate</a>
+              <strong>Algorithmic</strong> <br>
+              <a href="algorithmes.pdf">View certificate</a>
             </p>
           </div>
 

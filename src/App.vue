@@ -2,7 +2,7 @@
   <nav class="header">
       <div class="header__logo" >
        <p> <router-link to="/about">
-          <span>
+        <span>
             CODEUR
           </span> <br>
 
@@ -14,11 +14,11 @@
       </div>
 
       <div class="header__list">
-        <div class="header__list__item" :class="{ 'active-link': currentRoute === '/about' }">
-              <router-link to="/about">
+        <div class="header__list__item" :class="{ 'active-link': currentRoute === '/about'}">
+            <router-link to="/about">
                 <p>About</p>
-              </router-link>
-            </div>
+            </router-link>
+        </div>
 
             <div class="header__list__item" :class="{ 'active-link': currentRoute === '/skills' }">
               <router-link to="/skills">

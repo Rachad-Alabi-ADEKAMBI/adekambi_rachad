@@ -49,7 +49,7 @@
                 </p>
 
                 <p>
-                    <i class="fas fa-phone"></i>
+                    <i class="fab fa-whatsapp"></i>
                         <span></span>
                         +229 96228860
                 </p>

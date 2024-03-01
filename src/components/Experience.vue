@@ -29,12 +29,17 @@
                 </span> <br>
 
                 <strong>
-                    Freelances websites such as Comeup and fiver
+                    ComeUp
                 </strong>
 
                 <p>
-                  As a freelance full-stack developer, I take pride in successfully delivering over 60 orders with a 100% satisfaction rate on ComeUp. I specialize in crafting web solutions using technologies like Laravel, Vue.js, Flask, and WordPress, ensuring that each project meets the unique needs of my clients. My extensive experience includes developing custom management apps (Vue.js, Laravel), creating marketplaces for cars and houses (Vue.js, Laravel), and designing custom plugins for websites using Vue.js and native PHP.
-                </p>ss
+                  As a freelance full-stack developer, I take pride in successfully
+                  delivering over 70 orders with a 100% satisfaction rate on ComeUp.
+                   I specialize in crafting web solutions ensuring that each project
+                   meets the unique needs of my clients.
+                    My extensive experience includes developing custom management
+                    apps, creating marketplaces and designing custom plugins and APIs.
+                </p>
             </div>
        </div>
 
@@ -54,7 +59,10 @@
                 </strong>
 
                 <p>
-                  As a junior developer at Oba Code, I play a key role in our collaborative team, actively contributing to the development of diverse web solutions using technologies such as Laravel, Vue.js, and WordPress. My responsibilities span from creating custom management apps to addressing common bugs in active web applications, in addition to crafting custom plugins for websites using Vue.js and native PHP.
+                  As a junior developer at Oba Code, I actively contributed to the creation of various
+                  types of websites. I was involved in developing these websites using technologies
+                   such as Laravel, Vue.js, and WordPress, making them not just functional but also visually
+                    appealing and user-friendly.
                 </p>
             </div>
        </div>
@@ -74,8 +82,30 @@
                 </strong>
 
                 <p>
-                  I was an accountant before, that time i made some ...
+                  While working as an accountant at AHVIC, I handled financial matters,
+                  ensuring all records were organized and accurate. This experience honed my
+                  attention to detail and analytical thinking. Transitioning from numbers to coding
+                   wasn't a challenge because my passion for coding made the journey smooth.
                 </p>
+            </div>
+       </div>
+
+       <div class="experience">
+            <div class="experience__date">
+                04/2013 - 06/2013
+            </div>
+
+            <div class="experience__details">
+                <span>
+                    Trainee
+                </span> <br>
+
+                <strong>
+                    ECOBANK BENIN
+                </strong>
+                <p>
+                  During my time as a trainee at ECOBANK BENIN, I learned about different parts of banking like how things work and helping customers. I was like a newbie learning the basics of banking and helping the team work smoothly. This experience gave me a good start in understanding how banks work and made me even more excited about learning and growing in my career.
+              </p>
             </div>
        </div>
 
