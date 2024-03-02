@@ -1,16 +1,9 @@
 <template>
   <nav class="header">
       <div class="header__logo" >
-       <p> <router-link to="/about">
-        <span>
-            CODEUR
-          </span> <br>
-
-          <strong>
-            CREATIF
-          </strong>
+      <router-link to="/about">
+        <img src="img/codeur_creatif.jpg" alt="freelance developer">
         </router-link>
-      </p>
       </div>
 
       <div class="header__list">
@@ -115,5 +108,13 @@ export default {
   }
 };
 </script>
+
+<style>
+  img{
+    width: 150px;
+    height: auto;
+    margin: auto auto 50px auto;
+  }
+</style>
 
 
