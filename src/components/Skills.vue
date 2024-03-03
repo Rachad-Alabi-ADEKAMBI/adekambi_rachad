@@ -69,7 +69,7 @@
         <img src="img/logos/tools/png.png" alt="freelance full-stack developer" >
         <img src="img/logos/tools/figmaa.png" alt="freelance full-stack developer">
 
-      </div>  <br>
+      </div>
 
       <h3>
         Operating systems
