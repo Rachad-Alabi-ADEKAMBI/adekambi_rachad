@@ -47,14 +47,11 @@
                         <span></span>
                         adekambirachad@gmail.com
                 </p>
-<!--
                 <p>
                     <i class="fab fa-whatsapp"></i>
                         <span></span>
                         +229 96228860
                 </p>
-                -->
-
 
                   <p class="icons">
                     <a href="https://discord.com/users/9928"><i class="fab fa-discord"></i></a>
