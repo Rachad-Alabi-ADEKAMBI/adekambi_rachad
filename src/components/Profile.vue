@@ -51,13 +51,13 @@
                     <i class="fab fa-whatsapp"></i>
                         <span></span>
                         +229 96228860
-                </p>
+                </p>ou
 
                   <p class="icons">
                     <a href="https://discord.com/users/9928"><i class="fab fa-discord"></i></a>
                     <a href="https://www.linkedin.com/in/rachad-alabi-adekambi-2753a21b5/"><i class="fab fa-linkedin"></i></a>
                     <a href="github.com/rachad-Alabi-ADEKAMBI"><i class="fab fa-github"></i></a>
-                    <a href="	https://wa.me/22996228860"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/22996228860"><i class="fab fa-whatsapp"></i></a>
                   </p>
             </div>
         </div>

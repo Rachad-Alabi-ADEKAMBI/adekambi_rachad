@@ -42,39 +42,45 @@
          @click="displayMenu()" >
           <span>MENU</span>
       </div>
+  </nav>
 
-      <div class="header__responsive" id="menu">
-            <div class="header__responsive__item" @click='closeMenu()'>
+  <div class="header-responsive" >
+            <div class="header-responsive__item" @click='closeMenu()'>
                 <router-link to="/about" >
                   <p>About</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item"  @click='closeMenu()'>
+            <div class="header-responsive__item"  @click='closeMenu()'>
                 <router-link to="/skills" >
                   <p>Skills</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item"  @click='closeMenu()'>
+            <div class="header-responsive__item"  @click='closeMenu()'>
                 <router-link to="/experience" >
                   <p>Experience</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item"  @click='closeMenu()'>
+            <div class="header-responsive__item"  @click='closeMenu()'>
                 <router-link to="/education" >
                   <p>Education</p>
                 </router-link>
             </div>
 
-            <div class="header__responsive__item"  @click='closeMenu()'>
+            <div class="header-responsive__item"  @click='closeMenu()'>
                 <router-link to="/portfolio" >
                   <p>Portfolio</p>
                 </router-link>
             </div>
+
+            <br><br>
+            <div class="header-responsive__item mt-5"
+             @click='closeMenu()'>
+                  <p>Close</p>
+            </div>
       </div>
-  </nav>
   <router-view/>
 
 </template>

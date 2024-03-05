@@ -130,26 +130,28 @@ li {
 .header__icon span:hover {
   color: #8583E1;
 }
-.header__responsive {
-  width: 250px;
+
+.header-responsive {
+  width: 90%;
   z-index: 9999;
   background-color: #f1f3f5;
   height: 350px;
   position: relative;
-  display: none;
   right: 0;
   margin-right: 0;
 }
-.header__responsive__item {
+.header-responsive__item {
   margin: 20px auto;
   text-decoration: none;
   text-align: right;
 }
-.header__responsive__item p {
+.header-responsive__item p {
   cursor: pointer;
-  margin-right: 10px;
+  margin: 15px auto;
+  color: #100F3A;
+  text-decoration: none;
 }
-.header__responsive__item:hover p {
+.header-responsive__item:hover p {
   color: #8583E1;
 }
 
@@ -570,117 +572,147 @@ li {
   color: #8583E1;
 }
 
-/*responsive for 1024px*/
+/*responsive for 1024px
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header {
-    justify-content: space-between;
-    margin-bottom: 15px;
-  }
-  .header__list {
-    display: none;
-  }
-  .header__responsive {
-    display: none;
-  }
-  .main {
-    flex-direction: column;
-  }
-  .main__card {
-    width: 100%;
-  }
-  .main__content {
-    width: 100%;
-  }
-  .profile {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    justify-content: start;
-  }
-  .profile__pic {
-    flex: 1;
-  }
-  .profile__pic__message {
-    display: block;
-  }
-  .profile__details {
-    flex: 1;
-  }
+    .header{
+        justify-content: space-between;
+        margin-bottom: 15px;
+        &__list{
+            display: none;
+        }
+
+        &__responsive{
+            display: none;
+        }
+    }
+
+    .main{
+        flex-direction: column;
+
+        &__card{
+            width: 100%;
+        }
+
+        &__content{
+            width: 100%;
+
+
+        }
+    }
+
+    .profile{
+        width: 100%;
+        @include flex();
+        justify-content: start;
+
+        &__pic{
+            flex: 1;
+            img{
+
+            }
+
+            &__message{
+                display: block;
+            }
+        }
+
+        &__details{
+            flex: 1;
+        }
+    }
 }
-/*responsive for 767px*/
+
+responsive for 767px
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-  .header {
-    justify-content: space-between;
-    margin-bottom: 15px;
-  }
-  .header__list {
-    display: none;
-  }
-  .header__responsive {
-    display: none;
-  }
-  .main {
-    flex-direction: column;
-  }
-  .main__card {
-    width: 100%;
-  }
-  .main__content {
-    width: 100%;
-  }
-  .profile {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    justify-content: start;
-  }
-  .profile__pic {
-    flex: 1;
-  }
-  .profile__details {
-    flex: 1;
-  }
+    .header{
+        justify-content: space-between;
+        margin-bottom: 15px;
+        &__list{
+            display: none;
+        }
+
+        &__responsive{
+            display: none;
+        }
+    }
+
+    .main{
+        flex-direction: column;
+
+        &__card{
+            width: 100%;
+        }
+
+        &__content{
+            width: 100%;
+
+
+        }
+    }
+
+    .profile{
+        width: 100%;
+        @include flex();
+        justify-content: start;
+
+        &__pic{
+            flex: 1;
+            img{
+
+            }
+        }
+
+        &__details{
+            flex: 1;
+        }
+    }
 }
-/*responsive for 550px*/
-@media screen and (min-width: 550px) and (max-width: 766px) {
-  .header {
-    justify-content: space-between;
-    margin-bottom: 15px;
-  }
-  .header__list {
-    display: none;
-  }
-  .header__responsive {
-    display: none;
-  }
-  .main {
-    flex-direction: column;
-  }
-  .main__card {
-    width: 100%;
-  }
-  .main__content {
-    width: 100%;
-  }
-  .profile {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    justify-content: start;
-  }
-  .profile__pic {
-    flex: 1;
-  }
-  .profile__details {
-    flex: 1;
-  }
-}
+
+/*responsive for 550px
+@media screen and (min-width: 550px) and (max-width: 766px){
+
+    .header{
+        justify-content: space-between;
+        margin-bottom: 15px;
+        &__list{
+            display: none;
+        }
+
+        &__responsive{
+            display: none;
+        }
+    }
+
+    .main{
+        flex-direction: column;
+
+        &__card{
+            width: 100%;
+        }
+
+        &__content{
+            width: 100%;
+        }
+    }
+
+    .profile{
+        width: 100%;
+        @include flex(column);
+        justify-content: start;
+
+
+        &__pic{
+            flex: 1;
+            img{
+
+            }
+        }
+
+        &__details{
+            flex: 1;
+        }
+    }
+}*/
 /*responsive for 350px*/
 @media screen and (min-width: 330px) and (max-width: 549px) {
   .header {
@@ -693,8 +725,7 @@ li {
   .header__icon {
     display: table;
   }
-  .header__responsive {
-    display: none;
+  .header-responsive {
     margin: 0 0 auto auto;
     top: 0;
   }
