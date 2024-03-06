@@ -1,3 +1,16 @@
+/*code for maintenance mode*/
+.main {
+  display: none;
+}
+
+.maintenance {
+  display: block;
+}
+
+.header {
+  display: none;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -833,4 +846,7 @@ responsive for 767px
   .profile__details {
     flex: 1;
   }
+}
+.header-responsive {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

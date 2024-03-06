@@ -44,7 +44,7 @@
       </div>
   </nav>
 
-  <div class="header-responsive" >
+  <div class="header-responsive" id="menu">
             <div class="header-responsive__item" @click='closeMenu()'>
                 <router-link to="/about" >
                   <p>About</p>

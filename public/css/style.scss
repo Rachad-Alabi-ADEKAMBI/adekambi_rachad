@@ -15,7 +15,18 @@ $pink: #FFA07F;
 
 }
 
+/*code for maintenance mode*/
+.main {
+    display: none;
+  }
 
+  .maintenance{
+    display: block;
+  }
+
+.header{
+    display: none;
+}
 
 #app{
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -946,6 +957,8 @@ responsive for 767px
             flex: 1;
         }
     }
+}
 
-
+.header-responsive{
+    display: none;
 }
