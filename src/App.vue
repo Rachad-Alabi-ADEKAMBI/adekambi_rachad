@@ -71,7 +71,7 @@
 
             <div class="header-responsive__item"  @click='closeMenu()'>
                 <router-link to="/portfolio" >
-                  <p>Portfolio</p>
+                  <p>Projects</p>
                 </router-link>
             </div>
 
