@@ -11,7 +11,7 @@
           </div>
     </div>
 
-    <h1>My portfolio</h1>
+    <h1>My projects</h1>
 
     <div class="portfolio">
       <div class="portfolio__menu">
