@@ -65,7 +65,7 @@
             <p>
               E-commerce website for trading of jewelry and accessories for men women
               and children in Benin. I realized this site with wordpress and
-              I also realize plugin customize for the management of
+              I also made a plugin customize for the management of
               the delivery.
 
               <!--<br>
