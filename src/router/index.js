@@ -4,7 +4,7 @@ import AboutView from '../views/AboutView.vue'
 import SkillsView from '../views/SkillsView.vue'
 import ExperienceView from '../views/ExperienceView.vue'
 import EducationView from '../views/EducationView.vue'
-import PorfolioView from '../views/PortfolioView.vue'
+import ProjectsView from '../views/ProjectsView.vue'
 
 const routes = [
   {
@@ -33,9 +33,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/EducationView.vue')
   },
   {
-    path: '/portfolio',
-    name: 'portfolio',
-    component: () => import(/* webpackChunkName: "about" */ '../views/PortfolioView.vue')
+    path: '/Projects',
+    name: 'Projects',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ProjectsView.vue')
   }
 ]
 

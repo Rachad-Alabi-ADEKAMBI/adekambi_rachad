@@ -32,21 +32,22 @@
                     ComeUp
                 </strong>
 
-                <p>
-                  As a freelance full-stack developer, I take pride in successfully
-                  delivering over 70 orders with a 100% satisfaction rate on ComeUp.
-                   I specialize in crafting web solutions ensuring that each project
-                   meets the unique needs of my clients.
-                    My extensive experience includes developing custom management
-                    apps, creating marketplaces and designing custom plugins and APIs.
-                </p>
+                <ul>
+  <li>Completed over 70 gigs with a 100% customer satisfaction rate</li>
+  <li>Developed customized website designs using frameworks such as Laravel, Vue.js, and Flask</li>
+  <li>Developed custom WordPress extensions and themes</li>
+  <li>Transformed Figma and Photoshop mockups into responsive and functional websites</li>
+  <li>Created custom APIs to deliver secure and fast data</li>
+  <li>Debugged PHP and JavaScript code</li>
+</ul>
+
             </div>
        </div>
 
 
        <div class="experience">
             <div class="experience__date">
-                01/2020 - 01/2022
+                01/2020 - 09/2021
             </div>
 
             <div class="experience__details">
@@ -58,56 +59,57 @@
                     Oba Code
                 </strong>
 
-                <p>
-                  As a junior developer at Oba Code, I actively contributed to the creation of various
-                  types of websites. I was involved in developing these websites using technologies
-                   such as Laravel, Vue.js, and WordPress, making them not just functional but also visually
-                    appealing and user-friendly.
-                </p>
+                <ul>
+                  <li>
+                    Used Git for version control to decrease code conflicts
+                  </li>
+
+                  <li>
+                    Customized website content with WordPress, improving
+                    content management efficiency.
+                  </li>
+                  <li>Collaborated with designers and performance team on
+                      designing updates to sites and blogs, improving user
+                      experience.
+                  </li>
+
+                  <li>
+                    Briefed development team on website research, and
+                    made suggestions for website builds/products.
+                  </li>
+
+                  <li>
+                    Participated in stand-ups 2 times a month, where team
+                      leaders would review, assign, and coach team members.
+                  </li>
+                </ul>
             </div>
        </div>
 
        <div class="experience">
-            <div class="experience__date">
-                12/2014 - 06/2018
-            </div>
+    <div class="experience__date">
+        12/2014 - 06/2018
+    </div>
 
-            <div class="experience__details">
-                <span>
-                    Accountant
-                </span> <br>
+    <div class="experience__details">
+        <span>
+            Accountant
+        </span> <br>
 
-                <strong>
-                    AHVIC
-                </strong>
+        <strong>
+            AHVIC
+        </strong>
 
-                <p>
-                  While working as an accountant at AHVIC, I handled financial matters,
-                  ensuring all records were organized and accurate. This experience honed my
-                  attention to detail and analytical thinking. Transitioning from numbers to coding
-                   wasn't a challenge because my passion for coding made the journey smooth.
-                </p>
-            </div>
-       </div>
+        <ul>
+            <li>Managed financial records and prepared financial statements.</li>
+            <li>Performed budget analysis and cost control measures.</li>
+            <li>Collaborated with auditors during financial audits.</li>
+            <li>Provided financial insights and recommendations to management.</li>
+            <li>Ensured compliance with accounting regulations and standards.</li>
+        </ul>
+    </div>
+</div>
 
-       <div class="experience">
-            <div class="experience__date">
-                04/2013 - 06/2013
-            </div>
-
-            <div class="experience__details">
-                <span>
-                    Trainee
-                </span> <br>
-
-                <strong>
-                    ECOBANK BENIN
-                </strong>
-                <p>
-                  During my time as a trainee at ECOBANK BENIN, I learned about different parts of banking like how things work and helping customers. I was like a newbie learning the basics of banking and helping the team work smoothly. This experience gave me a good start in understanding how banks work and made me even more excited about learning and growing in my career.
-              </p>
-            </div>
-       </div>
 
   </div>
 </template>
@@ -120,3 +122,9 @@ export default {
  }
 }
 </script>
+
+<style>
+  li{
+    list-style: circle
+  }
+</style>

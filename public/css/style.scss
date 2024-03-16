@@ -15,19 +15,6 @@ $pink: #FFA07F;
 
 }
 
-/*code for maintenance mode*/
-.main {
-    display: none;
-  }
-
-  .maintenance{
-    display: block;
-  }
-
-.header{
-    display: none;
-}
-
 #app{
     font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,6 +22,7 @@ $pink: #FFA07F;
   text-align: center;
   color: #2c3e50;
   margin: auto;
+  text-decoration: none;
 }
 
 html, body{
@@ -172,9 +160,12 @@ li{
    z-index: 9999;
    background-color: $grey;
    height: 350px;
-   position: relative;
+ //  position: relative;
    right: 0;
    margin-right: 0;
+   padding-top: 10px;
+   padding-right: 15px;
+   text-decoration: none;
 
    &__item{
         margin: 20px auto;
@@ -183,15 +174,22 @@ li{
 
         p{
             cursor: pointer;
-            margin: 15px auto;
+            margin: 17px auto;
             color: $primary;
+            font-weight: bold;
+
+        }
+
+        a{
             text-decoration: none;
+            transition: 500ms ease-in-out;
         }
    }
 
    &__item:hover{
         p{
             color: $secondary;
+            margin-right: 10px;
         }
    }
 }
@@ -199,7 +197,7 @@ li{
 .main{
  //   background-color: red;
     width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
     @include flex();
     justify-content: start;
     z-index: -9999;
@@ -933,6 +931,7 @@ responsive for 767px
         width: 330px;
         @include flex(column);
         text-align: center;
+        margin: 0 auto;
 
         &__pic{
             flex: 1;

@@ -6,7 +6,7 @@
 
       <div class="main__content">
           <div class="content">
-              <Portfolio/>
+              <Projects/>
           </div>
       </div>
   </div>
@@ -15,13 +15,13 @@
 <script>
 // @ is an alias to /src
 import Profile from '@/components/Profile.vue'
-import Portfolio from '@/components/Portfolio.vue'
+import Projects from '@/components/Projects.vue'
 
 export default {
-name: 'PortfolioView',
+name: 'ProjectsView',
 components: {
   Profile,
-  Portfolio
+  Projects
 }
 }
 </script>

@@ -26,12 +26,9 @@
         </strong>
 
         <p>
-          My name is Rachad and i am your friendly developer with 4 years of experience.
-           I smoothly navigate the website landscape using tools like Laravel, Vue.js, Flask, and WordPress.
-            While I'm proficient in both backend and frontend work, I lean towards backend development as my
-            specialty. Crafting innovative web solutions and tackling complex challenges is where I excel.
-             My freelancing journey has given me the opportunity to assist numerous clients, leaving a trail
-              of satisfied customers.
+          I am Rachad, a friendly developer with 4 years of experience. I know how to use tools like Laravel, Vue.js, Flask, and WordPress to make websites work well. I'm good at both the front and back parts of websites, but I'm especially skilled at backend work. I'm great at coming up with new ideas for websites and solving tricky problems. I've helped many clients as a freelancer, and they've all been happy with my work.
+         <br>
+         "I am enthusiastic about taking on new projects and exploring new opportunities. Each project allows me to learn and improve. If you're in need of a developer, feel free to send me a message, and we can discuss further."
         </p>
    </div>
 </template>

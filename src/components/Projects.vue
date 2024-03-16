@@ -11,14 +11,18 @@
           </div>
     </div>
 
-    <h1>My projects</h1>
+    <h1 v-if="showTitle">My projects</h1>
+
+    <p v-if="showBack" @click="displayAll()" class="link">Back to projects</p>
 
     <div class="portfolio">
+      <!--
       <div class="portfolio__menu">
         <span @click="displayAll()" :id="elementId" v-bind:style="getStyles('all')">All</span>
         <span @click="displayWebsites()" :id="elementId" v-bind:style="getStyles('websites')">Websites & Web apps</span>
         <span @click="displayPlugins()" :id="elementId" v-bind:style="getStyles('plugins')">API & plugins</span>
       </div>
+      -->
 
       <div class="portfolio__items" v-if="showAll">
         <div class="item" v-for="detail in all" :key="detail.id">
@@ -63,16 +67,10 @@
             </h4>
 
             <p>
-              This is an e-commerce website for trading of jewelry and accessories for men women
-              and children in Benin. I realized this site with wordpress and
-              I also created a plugin customize for the management of
-              the deliveries.
-
-              <!--<br>
-              Link: <span> <a href="">https://trendsconceptstore.com/</a> </span>
-              -->
-
-            </p>
+  {{ all[selectedItemId].description }}
+  <br>
+  <span v-if="all[selectedItemId].link !== ''"><a :href="all[selectedItemId].link">View project</a></span>
+</p>
 
 
           </div>
@@ -83,7 +81,7 @@
 
 <script>
 export default {
-  name: 'Portfolio',
+  name: 'Projects',
   props: {
     msg: String
   },
@@ -97,13 +95,13 @@ export default {
       showImage1: true,
       showImage2: false,
       showImage3: false,
+      showTitle: false,
+      showBack: false,
       all: [
-      { id: 1, name: 'La cave des clubs', pic1: 'cave/cav1.jpg', pic2: 'cave/cav2.jpg', pic3: 'cave/cav3.jpg', description: "La Cave des Clubs is a website showcasing beverages from a distribution company. It's created using WordPress, a platform that makes it simple for the company to update and manage content. With this site, they can easily display their range of drinks, demonstrating the effectiveness of using WordPress for straightforward showcase websites.", link: "" },
-      { id: 2, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: 'rapid-note/rn2.jpg', pic3: 'rapid-note/rn3.jpg', description: "Rapidnote is a project in my developer portfolio created with Laravel and Vue.js. It's a secure marketplace for easy cryptocurrency transactions and includes a handy advertising space feature. The combination of Laravel's powerful backend and Vue.js's user-friendly frontend ensures a smooth experience. Rapidnote simplifies buying and selling cryptocurrencies and provides a straightforward way to showcase products and projects in the cryptocurrency world. ", link: '' },
-      { id: 3, name: 'Calendrier grossesse', pic1: 'calendrier/cal1.jpg', pic2: 'calendrier/cal2.jp', pic3: 'calendrier/cal3.jp', decription: "Calendrier Grossesse is an online tool designed for calculating essential dates to ensure the smooth progress of your pregnancy. This helpful resource is created using WordPress, complemented by a custom plugin for specialized functionalities. The website offers an easy way to track and determine significant milestones during pregnancy. By combining the flexibility of WordPress with a tailored plugin, Calendrier Grossesse underscores my ability to create user-friendly online tools to support a smooth pregnancy journey.", link: '' },
-      { id: 4, name: 'Immobilier Benin', pic1: 'immo/im1.jpg', pic2: 'immo/im2.jpg', pic3: 'immo/im3.jpg', description: "Immobilierbenin is a web application designed for browsing and posting real estate advertisements. Created with the powerful combination of Laravel for a solid backend and Vue.js for an interactive frontend, the platform offers a seamless experience for users engaging in real estate transactions. This project exemplifies the integration of Laravel and Vue.js to develop an effective and user-friendly web application tailored to the needs of the real estate market.", link: "" },
-      { id: 5, name: 'Parc Auto', pic1: 'parc/parc1.jpg', pic2: 'parc/parc2.jpg', pic3: 'parc/parc3.jpg', description: "", link: "ParcAuto, a featured project in my developer portfolio, seamlessly combines Laravel and Vue.js to create a user-friendly web app for buying and renting cars. This platform simplifies the process of browsing and posting car advertisements, providing a smooth and accessible experience for users. With Laravel's robust backend and Vue.js's intuitive frontend, ParcAuto ensures a straightforward approach to exploring car listings and posting advertisements. ", link: "" },
-      { id: 6, name: 'Servicom', pic1: 'servicom/se1.jpg', pic2: 'servicom/se2.jpg', pic3: 'servicom/se3.jpg', description: "Servicom is a handy custom application created using Vue.js and native PHP. This management app is designed to be useful and efficient in handling various tasks. By combining the capabilities of Vue.js for a responsive user interface and native PHP for backend functionality, Servicom provides a tailored solution for effective management. ", },
+      { id: 0, name: 'La cave des clubs', pic1: 'cave/cav1.jpg', pic2: 'cave/cav2.jpg', pic3: 'cave/cav3.jpg', description: "La Cave des Clubs is a website showcasing beverages from a distribution company.", link: "https://lacavedesclubs.com" },
+      { id: 1, name: 'Nbroker.be', pic1: 'nbroker/nb1.jpg', pic2: 'nbroker/nb2.jpg', pic3: 'nbroker/nb3.jpg', description: "Nbroker is a website that helps you compare some loans givers details in order to choose the best one that fits your unique needs", link: "https://nbroker.be" },
+    { id: 2, name: 'Pregnancy Calendar', pic1: 'calendrier/cal1.jpg', pic2: 'calendrier/cal2.jp', pic3: 'calendrier/cal3.jp', description: "Calendrier Grossesse is a custom wordpress plugin designed for calculating essential dates to ensure the smooth progress of your pregnancy. ", link: 'https://github.com/Rachad-Alabi-ADEKAMBI/blood_donor' },
+      { id: 3, name: 'Blood donor', pic1: 'blood/blood1.jpg', pic2: 'blood/blood2.jpg', pic3: 'blood/blood3', description: "Blood Donor is a custom WordPress plugin designed to determine the compatible blood types for blood donation based on your blood type and the recipient's blood type.", link: "https://github.com/Rachad-Alabi-ADEKAMBI/blood_donor" },
 
       ],
       websites: [
@@ -133,6 +131,8 @@ export default {
       this.showPlugins = false;
       this.showApp = false;
       this.activeCategory = 'all';
+      this.showTitle  = true;
+      this.showBack = false;
     },
     displayWebsites() {
       this.showAll = false;
@@ -160,6 +160,8 @@ export default {
       this.showImage1 = true;
       this.showImage2 = false;
         this.showImage3 = false;
+        this.showTitle = false;
+        this.showBack = true;
       },
       displayImage1() {
         this.showImage1 = true;
@@ -188,3 +190,14 @@ export default {
   }
 };
 </script>
+
+<style>
+  .link{
+    cursor: pointer;
+  }
+
+  .link:hover{
+    color:  #FFA07F;
+    font-weight: bold;
+  }
+</style>

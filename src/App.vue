@@ -7,11 +7,12 @@
       </div>
 
       <div class="header__list">
-        <div class="header__list__item" :class="{ 'active-link': currentRoute === '/about'}">
-            <router-link to="/about">
-                <p>About</p>
-            </router-link>
-        </div>
+        <div class="header__list__item" :class="{ 'active-link': currentRoute === '/about' || currentRoute === '/' }">
+    <router-link to="/about">
+        <p>About</p>
+    </router-link>
+</div>
+
 
             <div class="header__list__item" :class="{ 'active-link': currentRoute === '/skills' }">
               <router-link to="/skills">
@@ -25,15 +26,15 @@
               </router-link>
             </div>
 
-            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/Education' }">
+            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/education' }">
               <router-link to="/education">
                 <p>Education</p>
               </router-link>
             </div>
 
-            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/portfolio' }">
-              <router-link to="/portfolio">
-                <p>Portfolio</p>
+            <div class="header__list__item" :class="{ 'active-link': currentRoute === '/projects' }">
+              <router-link to="/projects">
+                <p>Projects</p>
               </router-link>
             </div>
       </div>
@@ -44,7 +45,7 @@
       </div>
   </nav>
 
-  <div class="header-responsive" id="menu">
+    <div class="header-responsive" id="menu">
             <div class="header-responsive__item" @click='closeMenu()'>
                 <router-link to="/about" >
                   <p>About</p>
@@ -70,7 +71,7 @@
             </div>
 
             <div class="header-responsive__item"  @click='closeMenu()'>
-                <router-link to="/portfolio" >
+                <router-link to="/projects" >
                   <p>Projects</p>
                 </router-link>
             </div>
@@ -80,7 +81,7 @@
              @click='closeMenu()'>
                   <p>Close</p>
             </div>
-      </div>
+    </div>
   <router-view/>
 
 </template>
@@ -121,6 +122,7 @@ export default {
     height: auto;
     margin: auto auto 50px auto;
   }
+
 </style>
 
 

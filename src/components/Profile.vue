@@ -11,8 +11,8 @@
                     </div>
                         <div class="message__btn">
                             <a href="mailto:adekambirachad@gmail.com">
-              <i class="fas fa-download"></i>
-             </a>
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
                     </div>
             </div>
@@ -50,16 +50,16 @@
                         adekambirachad@gmail.com
                 </p>
                 <p>
-                    <i class="fab fa-whatsapp"></i>
+                    <i class="fas fa-phone"></i>
                         <span></span>
                         +229 96228860
-                </p>ou
+                </p>
 
                   <p class="icons">
                     <a href="https://discord.com/users/9928"><i class="fab fa-discord"></i></a>
                     <a href="https://www.linkedin.com/in/rachad-alabi-adekambi-2753a21b5/"><i class="fab fa-linkedin"></i></a>
                     <a href="github.com/rachad-Alabi-ADEKAMBI"><i class="fab fa-github"></i></a>
-                    <a href="https://wa.me/22996228860"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/233276000838"><i class="fab fa-whatsapp"></i></a>
                   </p>
             </div>
         </div>
