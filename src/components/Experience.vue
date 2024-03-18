@@ -47,7 +47,7 @@
 
        <div class="experience">
             <div class="experience__date">
-                01/2020 - 09/2021
+                10/2019 - 09/2021
             </div>
 
             <div class="experience__details">

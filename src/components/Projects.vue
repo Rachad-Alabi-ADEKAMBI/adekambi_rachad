@@ -99,7 +99,7 @@ export default {
       showBack: false,
       all: [
       { id: 0, name: 'La cave des clubs', pic1: 'cave/cav1.jpg', pic2: 'cave/cav2.jpg', pic3: 'cave/cav3.jpg', description: "La Cave des Clubs is a website showcasing beverages from a distribution company.", link: "https://lacavedesclubs.com" },
-      { id: 1, name: 'Nbroker.be', pic1: 'nbroker/nb1.jpg', pic2: 'nbroker/nb2.jpg', pic3: 'nbroker/nb3.jpg', description: "Nbroker is a website that helps you compare some loans givers details in order to choose the best one that fits your unique needs", link: "https://nbroker.be" },
+      { id: 1, name: 'Nbroker.be', pic1: 'nbroker/nb1.jpg', pic2: 'nbroker/nb2.jpg', pic3: 'nbroker/nb3.jpg', description: "Nbroker is a website that helps you compare some loans givers details in order to choose the best one that fits your unique needs.", link: "https://nbroker.be" },
     { id: 2, name: 'Pregnancy Calendar', pic1: 'calendrier/cal1.jpg', pic2: 'calendrier/cal2.jp', pic3: 'calendrier/cal3.jp', description: "Calendrier Grossesse is a custom wordpress plugin designed for calculating essential dates to ensure the smooth progress of your pregnancy. ", link: 'https://github.com/Rachad-Alabi-ADEKAMBI/blood_donor' },
       { id: 3, name: 'Blood donor', pic1: 'blood/blood1.jpg', pic2: 'blood/blood2.jpg', pic3: 'blood/blood3', description: "Blood Donor is a custom WordPress plugin designed to determine the compatible blood types for blood donation based on your blood type and the recipient's blood type.", link: "https://github.com/Rachad-Alabi-ADEKAMBI/blood_donor" },
 

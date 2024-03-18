@@ -30,8 +30,8 @@
               <p>
 
                 <span>Open classrooms</span> <br>
-                <!-- <strong>B.Sc. in Computer System and Software </strong>
-              -->
+                   <strong>Full-stack developer course </strong>
+
               </p>
           </div>
        </div>
@@ -126,7 +126,7 @@
             <p>
               <span>Open Classrooms</span> <br>
               <strong>SEO</strong> <br>
-              <a href="img/certifications/api.pdf">View certificate</a>
+              <a href="img/certifications/seo.pdf">View certificate</a>
             </p>
           </div>
 
@@ -142,7 +142,7 @@
             <p>
               <span>Open classroom</span> <br>
               <strong>Algorithmic</strong> <br>
-              <a href="img/certifications/api/algorithmes.pdf">View certificate</a>
+              <a href="img/certifications/algorithmes.pdf">View certificate</a>
             </p>
           </div>
 

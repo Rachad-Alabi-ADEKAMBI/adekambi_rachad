@@ -137,15 +137,16 @@ li{
     }
 
     &__icon{
-        text-align: center;
-        display: table;
+        background-color: #2c3e50;
+        position: relative;
         display: none;
+
         span{
             color: $primary;
             cursor: pointer;
-            margin: auto;
-            display: table-cell;
-            vertical-align: middle;
+            position: absolute;
+            margin: 20px auto auto 0;
+            left: -50px;
         }
 
         span:hover{
@@ -159,7 +160,7 @@ li{
     width: 90%;
    z-index: 9999;
    background-color: $grey;
-   height: 350px;
+   height: 60vh;
  //  position: relative;
    right: 0;
    margin-right: 0;
@@ -651,18 +652,11 @@ li{
 }
 
 
-/*responsive for 1024px
+/*responsive for 1024px*/
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .header{
-        justify-content: space-between;
-        margin-bottom: 15px;
-        &__list{
-            display: none;
-        }
+        width: 95%;
 
-        &__responsive{
-            display: none;
-        }
     }
 
     .main{
@@ -670,12 +664,22 @@ li{
 
         &__card{
             width: 100%;
+
+            .card{
+                width: 300px;
+            }
         }
 
         &__content{
             width: 100%;
 
-
+            .content{
+                .infos{
+                    .message{
+                        display: none;
+                    }
+                }
+            }
         }
     }
 
@@ -683,15 +687,18 @@ li{
         width: 100%;
         @include flex();
         justify-content: start;
+        height: 350px;
 
         &__pic{
-            flex: 1;
+           // flex: 1;
             img{
-
+                width: 300px;
             }
 
-            &__message{
-                display: block;
+            .message{
+                visibility: visible;
+                margin: auto;
+                bottom: 100px;
             }
         }
 
@@ -701,7 +708,7 @@ li{
     }
 }
 
-responsive for 767px
+/*responsive for 767px
 @media screen and (min-width: 767px) and (max-width: 1023px) {
     .header{
         justify-content: space-between;
