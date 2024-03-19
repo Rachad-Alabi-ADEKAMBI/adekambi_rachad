@@ -66,21 +66,21 @@
 
                   <li>
                     Customized website content with WordPress, improving
-                    content management efficiency.
+                    content management efficiency
                   </li>
                   <li>Collaborated with designers and performance team on
                       designing updates to sites and blogs, improving user
-                      experience.
+                      experience
                   </li>
 
                   <li>
                     Briefed development team on website research, and
-                    made suggestions for website builds/products.
+                    made suggestions for website builds/products
                   </li>
 
                   <li>
                     Participated in stand-ups 2 times a month, where team
-                      leaders would review, assign, and coach team members.
+                      leaders would review, assign, and coach team members
                   </li>
                 </ul>
             </div>
@@ -101,11 +101,11 @@
         </strong>
 
         <ul>
-            <li>Managed financial records and prepared financial statements.</li>
-            <li>Performed budget analysis and cost control measures.</li>
-            <li>Collaborated with auditors during financial audits.</li>
-            <li>Provided financial insights and recommendations to management.</li>
-            <li>Ensured compliance with accounting regulations and standards.</li>
+            <li>Managed financial records and prepared financial statements</li>
+            <li>Performed budget analysis and cost control measures</li>
+            <li>Collaborated with auditors during financial audits</li>
+            <li>Provided financial insights and recommendations to management</li>
+            <li>Ensured compliance with accounting regulations and standards</li>
         </ul>
     </div>
 </div>
