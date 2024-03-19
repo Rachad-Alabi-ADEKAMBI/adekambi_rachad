@@ -598,11 +598,9 @@ li{
                     text-align: center;
                     margin: auto 0 auto 10px;
                     height: 100%;
-                    display: table;
                     i{
                         color: $white;
-                        display: table-cell;
-                        vertical-align: middle;
+                        margin: 28% auto;
                     }
                 }
         }
