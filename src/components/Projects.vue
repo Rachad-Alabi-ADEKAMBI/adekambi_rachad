@@ -2,7 +2,7 @@
   <div class="infos">
     <div class="message">
       <div class="message__text">
-        <p>Available for freelance work</p>
+        <p> Contact me for freelance work</p>
       </div>
       <div class="message__btn">
               <a href='mailto:adekambirachad@gmail.com'>
@@ -101,7 +101,7 @@ export default {
       { id: 0, name: 'La cave des clubs', pic1: 'cave/cav1.jpg', pic2: 'cave/cav2.jpg', pic3: 'cave/cav3.jpg', description: "La Cave des Clubs is a website showcasing beverages from a distribution company.", link: "https://lacavedesclubs.com" },
       { id: 1, name: 'Nbroker.be', pic1: 'nbroker/nb1.jpg', pic2: 'nbroker/nb2.jpg', pic3: 'nbroker/nb3.jpg', description: "Nbroker is a website that helps you compare some loans givers details in order to choose the best one that fits your unique needs.", link: "https://nbroker.be" },
     { id: 2, name: 'Pregnancy Calendar', pic1: 'calendrier/cal1.jpg', pic2: 'calendrier/cal2.jpg', pic3: 'calendrier/cal3.jpg', description: "Calendrier Grossesse is a custom wordpress plugin designed for calculating essential dates to ensure the smooth progress of your pregnancy. ", link: 'https://github.com/Rachad-Alabi-ADEKAMBI/pregnancyCalendar' },
-      { id: 3, name: 'Blood donor', pic1: 'blood/blood1.jpg', pic2: 'blood/blood2.jpg', pic3: 'blood/blood3', description: "Blood Donor is an app designed to determine the compatible blood types for blood donation based on your blood type.", link: "https://rachad-alabi-adekambi.github.io/blood_donor" },
+      { id: 3, name: 'Blood donor', pic1: 'blood/blood1.jpg', pic2: 'blood/blood2.jpg', pic3: 'blood/blood3.jpg', description: "Blood Donor is an app designed to determine the compatible blood types for blood donation based on your blood type.", link: "https://rachad-alabi-adekambi.github.io/blood_donor" },
       { id: 4, name: 'Eiffel', pic1: 'eiffel/EIFF1.jpg', pic2: 'eiffel/EIFF2.jpg', pic3: 'eiffel/EIFF3.jpg', description: "Conversion of a figma mockup to responsive website", link: "https://rachad-alabi-adekambi.github.io/eiffel/" },
     { id: 5, name: 'Rapid note', pic1: 'rapid-note/rn1.jpg', pic2: 'rapid-note/rn2.jpg', pic3: 'rapid-note/rn3.jpg', description: "Rapidnote is a secure marketplace for easy cryptocurrency transactions with a handy advertising space feature. ", link: '' },
       { id: 6, name: 'Servicom', pic1: 'servicom/se1.jpg', pic2: 'servicom/se2.jpg', pic3: 'servicom/se3.jpg', description: "Servicom is a custom web app management created with Vue.js and native PHP. This management app is designed to be useful and efficient in handling various tasks such as manage customers list or track some transactions ", link: '' },
@@ -184,7 +184,6 @@ export default {
         this.showImage3 = true;
       },
       getStyles(category) {
-      // Default styles
       let styles = {
         color: category === this.activeCategory ? '#FFA07F' : 'grey',
         fontSize: '16px',

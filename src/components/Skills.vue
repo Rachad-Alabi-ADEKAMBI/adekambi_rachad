@@ -3,7 +3,7 @@
     <div class="message">
       <div class="message__text">
         <p>
-          Available for freelance work
+          Contact me for freelance work
         </p>
       </div>
       <div class="message__btn">

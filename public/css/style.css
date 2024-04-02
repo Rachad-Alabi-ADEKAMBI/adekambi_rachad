@@ -536,12 +536,10 @@ li {
   text-align: center;
   margin: auto 0 auto 10px;
   height: 100%;
-  display: table;
 }
 .profile__pic .message__btn i {
   color: white;
-  display: table-cell;
-  vertical-align: middle;
+  margin: 28% auto;
 }
 .profile__pic .message:hover {
   background-color: #100F3A;

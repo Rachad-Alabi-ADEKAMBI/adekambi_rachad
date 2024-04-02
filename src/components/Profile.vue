@@ -6,7 +6,7 @@
                 <div class="message" id="message">
                     <div class="message__text">
                         <p>
-                        Available for freelance work
+                        Contact me for freelance work
                         </p>
                     </div>
                         <div class="message__btn">
@@ -59,11 +59,10 @@
                     <a href="https://discord.com/users/9928"><i class="fab fa-discord"></i></a>
                     <a href="https://www.linkedin.com/in/rachad-alabi-adekambi-2753a21b5/"><i class="fab fa-linkedin"></i></a>
                     <a href="github.com/rachad-Alabi-ADEKAMBI"><i class="fab fa-github"></i></a>
-                    <a href="https://wa.me/233276000838"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/22996228860"><i class="fab fa-whatsapp"></i></a>
                   </p>
             </div>
         </div>
-
 
     </div>
 
