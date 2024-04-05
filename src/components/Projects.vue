@@ -129,7 +129,6 @@ export default {
       { id: 6, name: 'Servicom', pic1: 'servicom/se1.jpg', pic2: 'servicom/se2.jpg', pic3: 'servicom/se3.jpg', description: "Servicom is a custom web app management created with Vue.js and native PHP. This management app is designed to be useful and efficient in handling various tasks such as manage customers list or track some transactions ", link: '' },
        { id: 7, name: 'Parc Auto', pic1: 'parc/parc1.jpg', pic2: 'parc/parc2.jpg', pic3: 'parc/parc3.jpg', description: "Parc-Auto created with Laravel and Vue.js is user-friendly cars marketplace. This platform simplifies the process of browsing and posting car advertisementsr listings and posting advertisements.", link: "" },
       ],
-   ],
       details: {},
       elementId: 'yourElementId', // Change this to the ID you want
       activeCategory: 'all', // Default active category
